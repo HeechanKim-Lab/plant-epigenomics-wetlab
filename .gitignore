@@ -1,0 +1,15 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.tmp
+*~
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Antigravity
+.antigravity/
+*.antigravity
+antigravity/
