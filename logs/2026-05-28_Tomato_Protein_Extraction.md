@@ -1,6 +1,6 @@
 # Tomato Protein Extraction Log (2026-05-28)
 
-### Background & Project Narrative
+## Background & Project Narrative
 This project investigates the phenotypic variations observed in tomato plants grown across different soil environments, focusing on differences in Shoot Length (SL), Root Length (RL), Fresh Weight (FW), and Dry Weight (DW). Clear phenotypic differences were identified in plants grown in Gyeongju (GJ) soil (increased overall volume) and Gijang B (GB) soil (accelerated ripening). 
 
 To track the transgenerational effects of these soil microbiomes/epigenetic factors, multi-generation cultivation was conducted:
@@ -8,7 +8,7 @@ To track the transgenerational effects of these soil microbiomes/epigenetic fact
 * **F1 & F2 generations:** Cultivated under continuous treatment with their respective soils (GB or GJ).
 * **F3 generation:** Cultivated without any soil treatments to evaluate inherited phenotypic memory.
 
-### Experimental Design
+## Experimental Design
 Protein extraction was performed using leaf samples from the Parent (P) and F3 generations, categorized by the following experimental groups:
 * **M3:** MES Buffer control (F3 generation)
 * **B3:** Gijang B soil group (F3 generation)
@@ -20,11 +20,9 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
 
 ---
 
-## Protocol & Notes
+## Reference Protocol
 
-### Reference Protocol
-
-#### 1. Buffer Formulation Reference
+### 1. Buffer Formulation Reference
 
 | Component | Stock Conc. | Vol. for 1 mL | Final Conc. | Vol. for 10 mL | Vol. for 50 mL | Function |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -38,7 +36,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
 | **Protease Inhibitor** | 2X | 500 µL | 1X | 5 mL | 25 mL | Protects proteins from degradation |
 | **Total Volume** | — | **1 mL** | — | **10 mL** | **50 mL** | — |
 
-#### 2. Protein Extraction Standard Operating Procedure (SOP)
+### 2. Protein Extraction Standard Operating Procedure (SOP)
 * **1-1)** Transfer the sample powder into a tube and add 300 µL of extraction buffer.
     * *Note 1-1-1:* Alternatively, you can add the buffer to the tube first, then add the sample and grind it.
     * *Note 1-1-2:* Keep the ratio of powder to solution close to 1:1.
@@ -50,7 +48,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
 
 ---
 
-### Bench Execution Log & Deviations
+## Bench Execution Log & Deviations
 
 
 1. **Tube Preparation and Labeling**

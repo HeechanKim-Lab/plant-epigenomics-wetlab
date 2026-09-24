@@ -1,6 +1,6 @@
 # Plasmid Vector DNA Extraction (2026-07-09)
 
-### Background & Project Narrative
+## Background & Project Narrative
 This procedure outlines the isolation and purification of plasmid DNA from *Escherichia coli* DH5α harboring the pGEX-5X-1 expression vector. The target vector is extracted from high-density downstream bacterial cultures prepared through a systematic cryogenic revival and expansion protocol designed to yield high-quality plasmid DNA optimized for downstream molecular applications.
 
 **Bacterial Revival and Pre-Culture Workflow:**
@@ -10,9 +10,9 @@ This procedure outlines the isolation and purification of plasmid DNA from *Esch
 * **Aerobic Incubation:** To optimize oxygen mass transfer and support log-phase growth kinetics, the culture tube is secured with a loose or vented cap configuration. The culture is incubated overnight at 37°C under continuous orbital agitation.
 * **Biomass Harvesting:** Following overnight saturation, the bacterial cells are harvested via centrifugation to form a stable pellet, establishing the starting material for downstream plasmid extraction.
 
-## Protocol & Notes
+---
 
-### Reference Protocol
+## Reference Protocol
 
 The following table summarizes the volumetric parameters and chemical sequence for the plasmid isolation protocol utilizing the FAPD extraction system.
 
@@ -27,7 +27,7 @@ The following table summarizes the volumetric parameters and chemical sequence f
 
 ---
 
-### Standard Operating Procedure (SOP)
+### 1. Standard Operating Procedure (SOP)
 
 1. **Culture Harvesting**
    Transfer 1.0–3.0 mL of saturated bacterial culture into a microcentrifuge tube. Centrifuge the assembly at 11,000 × g for 1 minute to pellet the biomass. Completely aspirate and discard the supernatant.

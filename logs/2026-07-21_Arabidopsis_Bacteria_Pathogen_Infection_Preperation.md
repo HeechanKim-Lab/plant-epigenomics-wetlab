@@ -1,6 +1,6 @@
 # Arabidopsis Bacteria Pathogen Infection Preperation (2026-07-21)
 
-### Experimental Design
+## Experimental Design
 The experiment is configured for high-density germination and uniform growth across 36 growth cells prior to downstream pathogen challenge:
 * **Target Layout:** 3 trays × 12 growth cells/tray (36 cells total).
 * **Sowing Density:** 10 seeds/cell (Net requirement: 360 seeds).
@@ -8,12 +8,16 @@ The experiment is configured for high-density germination and uniform growth acr
 
 ---
 
+## Pre-Run Preparations
 
-## Protocol & Notes
+* **Consumables:** 3 × 1.5 mL microcentrifuge tubes (pre-autoclaved) / 1 × 50 mL Falcon tube (sterile) / Glassine paper / White absorbent napkins
+* **Reagents:** *Arabidopsis thaliana* bulk seed stock (Col-0) / Sodium hypochlorite (NaClO) / Triple-distilled water (3'DW) / Triton X-100
 
-### Reference Protocol
+---
 
-#### 1. Surface Sterilization Solution Formulation Reference
+## Reference Protocol
+
+### 1. Surface Sterilization Solution Formulation Reference
 
 | Component | Stock Conc. | Vol. for 30 mL Working Sol. | Final Ratio / Conc. | Function |
 | :--- | :---: | :---: | :---: | :--- |
@@ -22,17 +26,12 @@ The experiment is configured for high-density germination and uniform growth acr
 | **Triton X-100** | Pure Liquid | 1–2 drops (~30 µL) | Trace (~0.1% v/v) | Non-ionic surfactant (penetrates seed coat micro-structures) |
 | **Total Volume** | — | **30.0 mL** | — | — |
 
-#### 2. Seed Sterilization & Stratification Standard Operating Procedure (SOP)
+### 2. Seed Sterilization & Stratification Standard Operating Procedure (SOP)
 * **1-1) Aliquoting:** Quantify and transfer ~150 *Arabidopsis* seeds into pre-autoclaved 1.5 mL tubes using cross-creased glassine paper over a white napkin substrate.
 * **1-2) Disinfection:** Add 1.0 mL of 20% NaClO working solution to each tube. Vortex briefly, pulse spin-down, and incubate at room temperature for **strictly 1 minute**.
 * **1-3) Clarification:** Immediately aspirate supernatant. Systematically discard floating seeds to eliminate low-mass and low-viability samples.
 * **1-4) Washing:** Wash seeds at least 3 times using 1.0 mL sterile 3'DW per cycle (vortex $\rightarrow$ 1 min static incubation $\rightarrow$ pulse spin-down $\rightarrow$ supernatant aspiration). Verify complete removal of chlorine odor before proceeding.
 * **1-5) Stratification:** Resuspend seeds in 1.0 mL sterile 3'DW and incubate at 4°C in the dark for 3 days (72 hours) to break dormancy and synchronize germination.
-
-## Pre-Run Preparations
-
-* **Consumables:** 3 × 1.5 mL microcentrifuge tubes (pre-autoclaved) / 1 × 50 mL Falcon tube (sterile) / Glassine paper / White absorbent napkins
-* **Reagents:** *Arabidopsis thaliana* bulk seed stock (Col-0) / Sodium hypochlorite (NaClO) / Triple-distilled water (3'DW) / Triton X-100
 
 ---
 

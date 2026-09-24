@@ -1,6 +1,6 @@
 # Tomato Protein Extraction Log (2026-06-24)
 
-### Background & Project Narrative
+## Background & Project Narrative
 This project investigates the phenotypic variations observed in tomato plants grown across different soil environments, focusing on differences in Shoot Length (SL), Root Length (RL), Fresh Weight (FW), and Dry Weight (DW). Clear phenotypic differences were identified in plants grown in Gyeongju (GJ) soil (increased overall volume) and Gijang B (GB) soil (accelerated ripening). 
 
 To track the transgenerational effects of these soil microbiomes/epigenetic factors, multi-generation cultivation was conducted:
@@ -8,7 +8,7 @@ To track the transgenerational effects of these soil microbiomes/epigenetic fact
 * **F1 & F2 generations:** Cultivated under continuous treatment with their respective soils (GB or GJ).
 * **F3 generation:** Cultivated without any soil treatments to evaluate inherited phenotypic memory.
 
-### Experimental Design
+## Experimental Design
 Protein extraction was performed using leaf samples from the Parent generation to assess the direct molecular profiling of the initial treated groups. The samples are categorized into the following experimental groups:
 * **PM:** MES Buffer control (Parent generation)
 * **PJ:** Gyeongju soil group (Parent generation)
@@ -22,11 +22,17 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
 
 ---
 
-## Protocol & Notes
+## Pre-Run Preparations
 
-### Reference Protocol
+* **Consumables (Per Sample):** 2 × 1.5 mL microcentrifuge tubes / 1 × PCR tube *(Note: Extra PCR tubes required for pooling sets)*
+* **Equipment:** Mortar and pestle sets / Metal laboratory spoons / Liquid nitrogen ($LN_2$) & ice buckets / Vortex mixer / Refrigerated centrifuge / NanoDrop spectrophotometer
+* **Disinfection:** 70% EtOH / RNase ZAP (for bench surface, mortar, pestle, and spoon decontamination between samples)
 
-#### 1. Buffer Formulation Reference
+---
+
+## Reference Protocol
+
+### 1. Buffer Formulation Reference
 
 | Component | Stock Conc. | Vol. for 1 mL | Final Conc. | Vol. for 10 mL | Vol. for 50 mL | Function |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -40,7 +46,7 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
 | **Protease Inhibitor** | 2X | 500 µL | 1X | 5 mL | 25 mL | Protects proteins from degradation |
 | **Total Volume** | — | **1 mL** | — | **10 mL** | **50 mL** | — |
 
-#### 2. Protein Extraction Standard Operating Procedure (SOP)
+### 2. Protein Extraction Standard Operating Procedure (SOP)
 * **1-1)** Transfer the sample powder into a tube and add 300 µL of extraction buffer.
     * *Note 1-1-1:* Alternatively, you can add the buffer to the tube first, then add the sample and grind it.
     * *Note 1-1-2:* Keep the ratio of powder to solution close to 1:1.
@@ -49,12 +55,6 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
 * **1-4)** Transfer 200 µL of the supernatant into a new microcentrifuge tube (e-tube).
     * *Note 1-4-1:* Aliquot 200 µL twice into PCR tubes per sample type and store (done to ensure sufficient sample volume for Western blot practice and in case target protein expression is high).
 * **1-5)** Measure the protein concentration, normalize the samples to equal concentrations, aliquot into 20 µL working volumes for Western blotting, and store at -20°C.
-
-## Pre-Run Preparations
-
-* **Consumables (Per Sample):** 2 × 1.5 mL microcentrifuge tubes / 1 × PCR tube *(Note: Extra PCR tubes required for pooling sets)*
-* **Equipment:** Mortar and pestle sets / Metal laboratory spoons / Liquid nitrogen ($LN_2$) & ice buckets / Vortex mixer / Refrigerated centrifuge / NanoDrop spectrophotometer
-* **Disinfection:** 70% EtOH / RNase ZAP (for bench surface, mortar, pestle, and spoon decontamination between samples)
 
 ---
 

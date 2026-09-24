@@ -1,6 +1,6 @@
 # Arabidopsis Sowing (2026-07-24)
 
-### Experimental Design
+## Experimental Design
 The experiment is configured for synchronized high-density germination and uniform seedling establishment across 24 growth cells:
 * **Target Layout:** 2 trays × 12 growth cells/tray (24 cells total).
 * **Sowing Density:** 12 seeds/cell arranged in a 3×4 spatial grid matrix (Net requirement: 288 seeds).
@@ -9,24 +9,22 @@ The experiment is configured for synchronized high-density germination and unifo
 
 ---
 
-## Protocol & Notes
+## Pre-Run Preparations
 
-### Reference Protocol
+* **Consumables:** 2 × 12-cell plant propagation trays with base trays and perforated transparent domes / Glass Pasteur pipettes / Plastic mixing container / Fine aerosol pressure sprayer / Fine micro-forceps
+* **Reagents:** *Arabidopsis thaliana* seed stock (ecotype Columbia, Col-0) / 70% Ethanol (EtOH) / Sodium hypochlorite (NaOCl) / Triple-distilled water (3'DW) / Single-distilled water (1'DW) / Dry soil substrate (potting mix)
 
-#### 1. Sowing & Propagation Standard Operating Procedure (SOP)
+---
+
+## Reference Protocol
+
+### 1. Sowing & Propagation Standard Operating Procedure (SOP)
 * **1-1) Cold Stratification:** Submerge surface-sterilized seeds in 1.0 mL sterile 3'DW; incubate at 4°C in total darkness for 72 h to break physiological dormancy.
 * **1-2) Transfer Tool Fabrication:** Snap tip off a glass Pasteur pipette to form a wide-bore orifice; flush thoroughly with sterile 3'DW to purge glass debris.
 * **1-3) Substrate Preparation & Packing:** Homogenize soil with 1'DW to a damp, friable consistency. Loosely load NaOCl-sterilized 12-cell trays without compaction, forming central convex mounds in each cell.
 * **1-4) Pre-Sowing Hydration:** Surface-mist trays with 1'DW aerosol until central mounds collapse flat and soil reaches gravimetric saturation.
 * **1-5) Matrix Sowing:** Aspirate seeds using the modified pipette and dispense 12 seeds/cell in a 3×4 spatial matrix. Re-singulate seed clusters using fine micro-forceps.
 * **1-6) Incubation & Acclimation:** Cover trays with perforated transparent domes. Incubate in a growth chamber (12h light / 12h dark). Remove domes and begin bottom irrigation after 7 days.
-
----
-
-## Pre-Run Preparations
-
-* **Consumables:** 2 × 12-cell plant propagation trays with base trays and perforated transparent domes / Glass Pasteur pipettes / Plastic mixing container / Fine aerosol pressure sprayer / Fine micro-forceps
-* **Reagents:** *Arabidopsis thaliana* seed stock (ecotype Columbia, Col-0) / 70% Ethanol (EtOH) / Sodium hypochlorite (NaOCl) / Triple-distilled water (3'DW) / Single-distilled water (1'DW) / Dry soil substrate (potting mix)
 
 ---
 

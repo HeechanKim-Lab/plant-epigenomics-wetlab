@@ -1,37 +1,56 @@
 # cDNA Synthesis Log (2026-09-09)
 
 
-### Background & Project Narrative
+## Background & Project Narrative
 
-#### Mechanistic Context: AS-NMD Surveillance as an Immune Rheostat
+### 1. Mechanistic Context: AS-NMD Surveillance as an Immune Rheostat
 In plant immune regulation, *SNC1* (Suppressor of *npr1-1*, Constitutive 1) functions as an endogenous substrate of the nonsense-mediated mRNA decay (NMD) pathway rather than an upstream regulator. While the genomic locus remains wild-type and free of nonsense mutations, *SNC1* pre-mRNA undergoes extensive alternative splicing (AS). Regulated splicing events—such as intron retention or alternative splice site selection—shift the reading frame to introduce premature termination codons (PTCs). 
 
 Under physiological conditions, plant cells exploit alternative splicing-coupled nonsense-mediated decay (AS-NMD) as an essential post-transcriptional rheostat:
 * The core NMD surveillance machinery (including UPF1, UPF2, UPF3, and SMG7) continuously scans and targets PTC-bearing *SNC1* isoforms for rapid cytoplasmic degradation.
 * This targeted transcript turnover restricts toxic intracellular accumulation of nucleotide-binding leucine-rich repeat (NLR) receptors, preventing spontaneous autoimmunity and systemic necrosis.
 
-#### cDNA-Derived Reporter Architecture & Intrinsic Decay Determinants
+### 2. cDNA-Derived Reporter Architecture & Intrinsic Decay Determinants
 To quantitatively benchmark decay mechanics, this investigation shifts from tracking real-time splicing kinetics to assaying the intrinsic NMD-inducing capacity of predetermined sequences via an ectopic cDNA expression platform. Because the cloned cDNA inserts are pre-spliced and devoid of introns, cellular splicing choices are completely bypassed.
 
 The cloned candidate sequences (including *SNC1* and two complementary test candidates) function strictly as mRNA stability determinants:
 * The experimental system tests whether specific structural features—such as invariant PTCs, extended 3′ UTRs, or localized destabilizing elements—are sufficient to recruit the cytoplasmic NMD machinery.
 * Transcript turnover is monitored purely as a function of mRNA sequence architecture rather than dynamic exon assembly or junction complex formation.
 
-#### RUBY-Coupled Metabolic Readout
+### 3. RUBY-Coupled Metabolic Readout
 Decay kinetics are coupled directly to a non-destructive visual metabolic reporter via a downstream polycistronic **RUBY** cassette, which converts endogenous L-tyrosine into the visually distinct pigment betalain. Phenotypic color intensity correlates inversely with NMD efficacy:
 * **High NMD Efficiency (Decay Triggered):** Efficient surveillance recruitment drives rapid transcript degradation. The drastically shortened transcript half-life precludes translation of the RUBY biosynthetic enzymes, leaving transformed tissue green (pigment-null).
 * **Low NMD Efficiency / Decay Evasion:** Stable cytoplasmic transcripts undergo robust translation, driving enzymatic production of betalain and resulting in pronounced macroscopic red pigmentation.
 
-#### Cross-Species Evolutionary Scope
+### 4. Cross-Species Evolutionary Scope
 Candidate sequences were prepared from both *Arabidopsis thaliana* ecotype Columbia-0 (*A. thaliana* Col-0, `At`) and tomato (*Solanum lycopersicum* cv. Moneymaker, `MM`). This comparative model tests whether NLR-derived surveillance triggers and structural decay signals maintain functional cross-species compatibility across Brassicaceae and Solanaceae, identifying conserved sequence elements for synthetic post-transcriptional circuit design.
 
-### Experimental Design
+## Experimental Design
 First-strand cDNA synthesis was performed using post-DNase treated Total RNA samples to generate stable templates for cloning candidate decay determinants into the RUBY reporter cassette.
 
 **Sample Grid & Batch Configuration:**
 The reverse transcription batch consists of 2 unique sample groups processed in parallel:
 * **At Group:** *Arabidopsis thaliana* ecotype Col-0 Total RNA (`At`)
 * **MM Group:** *Solanum lycopersicum* cv. Moneymaker Total RNA (`MM`)
+
+---
+
+## Pre-Run Preparations
+
+* **Consumables (Per Sample / Batch):** 
+  * 1 × 1.5 mL microcentrifuge tube (Post-DNase RNA pellet recovery & resuspension)
+  * 1 × 0.2 mL thin-wall PCR tube (Annealing & first-strand cDNA synthesis)
+  * 2 × 1.5 mL sterile microcentrifuge tubes per batch (`Step 1` and `Step 2` Master Mix assembly)
+* **Equipment:** 
+  * Laminar flow clean bench
+  * Bio-Rad C1000 Touch Thermal Cycler
+  * Thermo Scientific NanoDrop 2000c Spectrophotometer
+  * Vortex mixer
+  * Ice bucket
+* **Disinfection & Solvents:** 
+  * 70% DEPC-treated Ethanol (RNA pellet desalting wash)
+  * DEPC-treated Distilled Water (D.W., RNA resuspension)
+  * Sterile Distilled Water ($3^\circ\text{ DW}$, cDNA dilution and optical blanking)
 
 ---
 
@@ -102,25 +121,6 @@ The reverse transcription batch consists of 2 unique sample groups processed in 
   * **cDNA Synthesis:** 42°C for 60 minutes
   * **Enzyme Inactivation:** 70°C for 15 minutes
 * **6)** Dilute the synthesized cDNA reaction by adding 180 µL of sterile Distilled Water ($3^\circ\text{ DW}$) to each tube (final volume: 200 µL). Quantify nucleic acid concentration and purity using a NanoDrop spectrophotometer, and store aliquots at -20°C.
-
----
-
-## Pre-Run Preparations
-
-* **Consumables (Per Sample / Batch):** 
-  * 1 × 1.5 mL microcentrifuge tube (Post-DNase RNA pellet recovery & resuspension)
-  * 1 × 0.2 mL thin-wall PCR tube (Annealing & first-strand cDNA synthesis)
-  * 2 × 1.5 mL sterile microcentrifuge tubes per batch (`Step 1` and `Step 2` Master Mix assembly)
-* **Equipment:** 
-  * Laminar flow clean bench
-  * Bio-Rad C1000 Touch Thermal Cycler
-  * Thermo Scientific NanoDrop 2000c Spectrophotometer
-  * Vortex mixer
-  * Ice bucket
-* **Disinfection & Solvents:** 
-  * 70% DEPC-treated Ethanol (RNA pellet desalting wash)
-  * DEPC-treated Distilled Water (D.W., RNA resuspension)
-  * Sterile Distilled Water ($3^\circ\text{ DW}$, cDNA dilution and optical blanking)
 
 ---
 

@@ -1,6 +1,6 @@
 # Tomato RNA Extraction Log (2026-05-29)
 
-### Background & Project Narrative
+## Background & Project Narrative
 This project investigates the phenotypic variations observed in tomato plants grown across different soil environments, focusing on differences in Shoot Length (SL), Root Length (RL), Fresh Weight (FW), and Dry Weight (DW). Clear phenotypic differences were identified in plants grown in Gyeongju (GJ) soil (increased overall volume) and Gijang B (GB) soil (accelerated ripening). 
 
 To track the transgenerational effects of these soil microbiomes/epigenetic factors, multi-generation cultivation was conducted:
@@ -8,7 +8,7 @@ To track the transgenerational effects of these soil microbiomes/epigenetic fact
 * **F1 & F2 generations:** Cultivated under continuous treatment with their respective soils (GB or GJ).
 * **F3 generation:** Cultivated without any soil treatments to evaluate inherited phenotypic memory.
 
-### Experimental Design
+## Experimental Design
 RNA extraction was performed using leaf samples from the Parent (P) and F3 generations, categorized by the following experimental groups:
 * **M3:** MES Buffer control (F3 generation)
 * **B3:** Gijang B soil group (F3 generation)
@@ -20,11 +20,9 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
 
 ---
 
-## Protocol & Notes
+## Reference Protocol
 
-### Reference Protocol
-
-#### 1. Tomato RNA Extraction Protocol
+### 1. Tomato RNA Extraction Protocol
 
 * **1)** Grind 0.1 g of the sample using liquid nitrogen ($LN_2$).
     * *Note:* All reagents and equipment must be treated with DEPC for at least 2 days and then autoclaved before use. (DEPC preparation: Add 1 mL of DEPC to 1 L of Distilled Water, allow it to dissolve for at least 2 days, then autoclave).
@@ -44,9 +42,9 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
 * **12)** Discard the supernatant, air-dry the pellet completely until the ethanol evaporates (do not exceed 30 minutes), and resuspend by adding 50 µL of DEPC-treated Distilled Water (D.W.).
 * **13)** Store at -80°C.
 
-#### 2. DNase Treatment
+### 2. DNase Treatment
 
-##### Reaction Mixture
+#### Reaction Mixture
 
 | Component | Volume |
 | :--- | :---: |
@@ -55,7 +53,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
 | Total RNA | 25 µL |
 | **Total Volume** | **30 µL** |
 
-##### Protocol
+#### Protocol
 
 * **1)** Mix gently by pipetting, then incubate at 37°C for 30 minutes.
 * **2)** Add 270 µL of DEPC-treated Distilled Water (D.W.) to bring the total volume up to 300 µL.

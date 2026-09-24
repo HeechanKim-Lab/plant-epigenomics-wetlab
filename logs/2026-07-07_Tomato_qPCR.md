@@ -1,11 +1,11 @@
 # Tomato qPCR Log (2026-07-07)
 
-### Background & Project Narrative
+## Background & Project Narrative
 This project investigates the transgenerational epigenetic mechanisms and phenotypic variations observed in tomato plants grown across distinct soil environments, specifically focusing on Gyeongju (GJ) soil (associated with increased vegetative volume) and Gijang B (GB) soil (associated with accelerated ripening). A multi-generational cultivation scheme was established to track the inheritance, stability, and decay of soil microbiome-induced epigenetic memory across successive generations.
 
 Following prior transcriptomic profiling of the Parent (P) and F3 generations, this experimental phase evaluates the **F1 generation** to characterize the immediate molecular and epigenetic baseline established after parental exposure. Quantitative Polymerase Chain Reaction (qPCR) is employed to analyze targeted genetic loci or expression dynamics within this generation.
 
-### Experimental Design
+## Experimental Design
 The assay utilizes DNA samples extracted from the leaf tissues of the F1 generation, partitioned into three environmental treatment cohorts:
 * **F1 MES:** MES Buffer vehicle control group
 * **F1 GB:** Gijang B soil treatment group
@@ -19,11 +19,25 @@ The assay utilizes DNA samples extracted from the leaf tissues of the F1 generat
   * **GJ Treatment:** GJ 4-1, 4-2, 4-3, 4-4 | GJ 5-1, 5-2, 5-3, 5-4
 * **Storage Baseline:** Prior to experimental execution, all 24 DNA samples were archived in 0.2 mL PCR tubes and maintained under stable cryopreservation at -20°C.
 
-## Protocol & Notes
+---
 
-### Reference Protocol
+## Pre-Run Preparations
 
-#### 1. qPCR Reaction Mixture Formulation
+### Experiment-Specific Reagents & Starting Materials
+* **Target Template DNA:** 24 distinct F1 generation DNA samples (MES vehicle control, GB soil, and GJ soil cohorts spanning biological replicate blocks 4-1 to 4-4 and 5-1 to 5-4), retrieved from -20°C cryopreservation in 0.2 mL PCR tubes.
+* **Optimized Primer Stocks:** 10 pmol stocks of Forward and Reverse primers designed for targeting ***UPF2***, ***SRRM1-like***, and ***Actin*** (internal reference control).
+* **Reaction Assay Matrix:** 1 × optical 384-well qPCR plate, physically partitioned using a fine-tip permanent marker into a 3 $\times$ 6 macro-grid matching the experimental target genes and sample set configurations.
+
+### Specific Consumables Allocation
+* **Master Mix Partitioning Tubes:** 6 × sterile 1.5 mL microcentrifuge tubes (strictly allocated as 2 independent tubes per target gene to segregate the master mix volumes required for Set 1 and Set 2).
+* **Physical Stabilization Components:** Laboratory tape designated for anchoring the flexible 384-well plate to the workspace surface to eliminate micro-shifting during high-density manual pipetting.
+* **Localized Photo-Shielding Materials:** Adhesive optical PCR plate sealing film deployed progressively during the run to mask and isolate completed rows from ambient light while adjacent rows are loaded.
+
+---
+
+## Reference Protocol
+
+### 1. qPCR Reaction Mixture Formulation
 The table below outlines the formulation for a single quantitative PCR (qPCR) reaction (1X) and the corresponding master mix preparation scaled for 40 reactions (40X) to account for technical replicates, controls, and pipetting overhead.
 
 | Component | Stock Concentration | Volume per Reaction (1X) | Master Mix Volume (40X) |
@@ -38,17 +52,7 @@ The table below outlines the formulation for a single quantitative PCR (qPCR) re
 
 *Note on Assembly:* The Master Mix Cocktail (8.0 µL per well) should be prepared in bulk, homogenized gently by vortexing, and aliquoted into the PCR plate before adding the individual Template DNA (2.0 µL per well) to reach the final 10.0 µL target reaction volume.
 
-## Pre-Run Preparations
-
-### Experiment-Specific Reagents & Starting Materials
-* **Target Template DNA:** 24 distinct F1 generation DNA samples (MES vehicle control, GB soil, and GJ soil cohorts spanning biological replicate blocks 4-1 to 4-4 and 5-1 to 5-4), retrieved from -20°C cryopreservation in 0.2 mL PCR tubes.
-* **Optimized Primer Stocks:** 10 pmol stocks of Forward and Reverse primers designed for targeting ***UPF2***, ***SRRM1-like***, and ***Actin*** (internal reference control).
-* **Reaction Assay Matrix:** 1 × optical 384-well qPCR plate, physically partitioned using a fine-tip permanent marker into a 3 $\times$ 6 macro-grid matching the experimental target genes and sample set configurations.
-
-### Specific Consumables Allocation
-* **Master Mix Partitioning Tubes:** 6 × sterile 1.5 mL microcentrifuge tubes (strictly allocated as 2 independent tubes per target gene to segregate the master mix volumes required for Set 1 and Set 2).
-* **Physical Stabilization Components:** Laboratory tape designated for anchoring the flexible 384-well plate to the workspace surface to eliminate micro-shifting during high-density manual pipetting.
-* **Localized Photo-Shielding Materials:** Adhesive optical PCR plate sealing film deployed progressively during the run to mask and isolate completed rows from ambient light while adjacent rows are loaded.
+---
 
 ## Bench Execution Log & Deviations
 
@@ -70,7 +74,7 @@ The table below outlines the formulation for a single quantitative PCR (qPCR) re
 
 ---
 
-### 384-Well qPCR Plate Mapping Layout
+#### 384-Well qPCR Plate Mapping Layout
 
 The table below visualizes the exact physical partitioning of the 384-well plate. The configuration fully utilizes all 24 columns and rows A through I.
 

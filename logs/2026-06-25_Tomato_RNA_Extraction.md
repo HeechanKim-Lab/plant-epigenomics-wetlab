@@ -1,6 +1,6 @@
 # Tomato RNA Extraction Log (2026-06-25)
 
-### Background & Project Narrative
+## Background & Project Narrative
 This project investigates the phenotypic variations observed in tomato plants grown across different soil environments, focusing on differences in Shoot Length (SL), Root Length (RL), Fresh Weight (FW), and Dry Weight (DW). Clear phenotypic differences were identified in plants grown in Gyeongju (GJ) soil (increased overall volume) and Gijang B (GB) soil (accelerated ripening). 
 
 To track the transgenerational effects of these soil microbiomes/epigenetic factors, multi-generation cultivation was conducted:
@@ -8,7 +8,7 @@ To track the transgenerational effects of these soil microbiomes/epigenetic fact
 * **F1 & F2 generations:** Cultivated under continuous treatment with their respective soils (GB or GJ).
 * **F3 generation:** Cultivated without any soil treatments to evaluate inherited phenotypic memory.
 
-### Experimental Design
+## Experimental Design
 RNA extraction was performed using leaf samples from the Parent generation to analyze direct transcriptional responses to the initial soil treatments. The samples are categorized into the following experimental groups:
 * **PM:** MES Buffer control (Parent generation)
 * **PJ:** Gyeongju soil group (Parent generation)
@@ -22,11 +22,17 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
 
 ---
 
-## Protocol & Notes
+## Pre-Run Preparations
 
-### Reference Protocol
+* **Consumables (Per Sample):** 1 × 2.0 mL microcentrifuge tube / 3 × 1.5 mL microcentrifuge tubes / 1 × PCR tube *(Note: All tubes must be DEPC-treated and autoclaved)*
+* **Equipment:** Mortar and pestle sets / Metal laboratory spoons / Liquid nitrogen ($LN_2$) & ice buckets / Vortex mixer / Refrigerated centrifuge / Digital dry bath (Pre-heated to 37°C) / Clean bench (Laminar flow hood)
+* **Disinfection:** 70% EtOH / RNase ZAP (for bench surface, mortar, pestle, and spoon decontamination between samples)
 
-#### 1. Tomato RNA Extraction Protocol
+---
+
+## Reference Protocol
+
+### 1. Tomato RNA Extraction Protocol
 
 * **1)** Grind 0.1 g of the sample using liquid nitrogen (LN2).
     * *Note:* All reagents and equipment must be treated with DEPC for at least 2 days and then autoclaved before use. (DEPC preparation: Add 1 mL of DEPC to 1 L of Distilled Water, allow it to dissolve for at least 2 days, then autoclave).
@@ -46,9 +52,9 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
 * **12)** Discard the supernatant, air-dry the pellet completely until the ethanol evaporates (do not exceed 30 minutes), and resuspend by adding 50 µL of DEPC-treated Distilled Water (D.W.).
 * **13)** Store at -80°C.
 
-#### 2. DNase Treatment
+### 2. DNase Treatment
 
-##### Reaction Mixture
+#### Reaction Mixture
 
 | Component | Volume |
 | :--- | :---: |
@@ -57,7 +63,7 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
 | Total RNA | 25 µL |
 | **Total Volume** | **30 µL** |
 
-##### Protocol
+#### Protocol
 
 * **1)** Mix gently by pipetting, then incubate at 37°C for 30 minutes.
 * **2)** Add 270 µL of DEPC-treated Distilled Water (D.W.) to bring the total volume up to 300 µL.
@@ -76,13 +82,6 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
 * **7)** Carefully remove the supernatant without disturbing the pellet, add 1 mL of 70% DEPC-treated ethanol, and centrifuge for 1 minute.
 * **8)** Repeat step 7 (the ethanol wash step) once more.
 * **9)** Air-dry the ethanol pellet, resuspend in 50 µL of DEPC-treated Distilled Water (D.W.), and store at -20°C.
-
-
-## Pre-Run Preparations
-
-* **Consumables (Per Sample):** 1 × 2.0 mL microcentrifuge tube / 3 × 1.5 mL microcentrifuge tubes / 1 × PCR tube *(Note: All tubes must be DEPC-treated and autoclaved)*
-* **Equipment:** Mortar and pestle sets / Metal laboratory spoons / Liquid nitrogen ($LN_2$) & ice buckets / Vortex mixer / Refrigerated centrifuge / Digital dry bath (Pre-heated to 37°C) / Clean bench (Laminar flow hood)
-* **Disinfection:** 70% EtOH / RNase ZAP (for bench surface, mortar, pestle, and spoon decontamination between samples)
 
 ---
 
