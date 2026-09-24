@@ -10,7 +10,7 @@ Forensic bench records, assay optimization logs, and standard operating procedur
 ## Assays & Technical Workflows
 
 ### 1. Targeted Amplicon Deep Sequencing
-* **System:** CRISPR/Cas edit validation in *S1UPF3a* knockout line candidates of *Solanum lycopersicum* cv. 'Micro-Tom'.
+* **System:** CRISPR/Cas edit validation in *SlUPF3a* knockout line candidates of *Solanum lycopersicum* cv. 'Micro-Tom'.
 * **Methodology:** Three-step nested PCR pipeline incorporating locus-specific amplification, secondary nested resolution, and tertiary dual-indexing adapters.
 * **Optimization:** Implemented spatial 0° / 180° side-wall loading to isolate row and column index primers, preventing non-specific annealing prior to thermal denaturation.
 * **QC & Purification:** Preparative 0.8% agarose gel electrophoresis followed by silica-membrane column extraction and spectrophotometric purity profiling ($A_{260}/A_{280}$, $A_{260}/A_{230}$).
