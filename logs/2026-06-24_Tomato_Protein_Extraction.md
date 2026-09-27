@@ -65,7 +65,7 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
    * Prepared 4 mortar and pestle sets along with metal laboratory spoons for sample grinding.
    * Decontaminated all mortars, pestles, and spoons by wiping them thoroughly with 70% Ethanol and RNase ZAP to prevent cross-contamination.
    * Prepared 4 buckets filled with liquid nitrogen ($LN_2$) to maintain cryogenic temperatures during the extraction process.
-![Workstation and Equipment Setup](../assets/sample_grinding1.jpg)
+![Workstation and Equipment Setup](../assets/2026-06-24_sample_grinding1.jpg)
 
 2. **Cryogenic Grinding and Sample Tube Transfer**
    * Retrieved the foil-wrapped tomato leaf samples stored at -20°C and placed them immediately into a liquid nitrogen ($LN_2$) bucket to maintain the frozen chain.
@@ -78,7 +78,7 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
      * Poured out any residual $LN_2$ from the chilled tube, then used the pre-chilled spoon to carefully transfer the pulverized sample powder into the tube.
      * Sealed the tube cap tightly and immediately submerged it back into the $LN_2$ bucket to preserve protein stability.
      * Thoroughly wiped down the mortar, pestle, and spoon with 70% Ethanol between samples to ensure an absolutely clean surface for the next replicate.
-![Cryogenic Leaf Tissue Homogenization](../assets/sample_grinding2.jpg)
+![Cryogenic Leaf Tissue Homogenization](../assets/2026-06-24_sample_grinding2.jpg)
 
 3. **Protein Extraction Buffer Formulation and Addition**
    * Formulated a total volume of **12.0 mL** of the final Working Cocktail Protein Extraction Buffer. 
@@ -106,7 +106,7 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
      * **PM Pooled:** 30 µL each from `PM 3-1`, `PM 3-2`, `PM 3-3`, and `PM 3-4` (Total: 120 µL).
      * **PJ Pooled:** 30 µL each from `PJ 4-1`, `PJ 4-2`, `PJ 4-3`, and `PJ 4-4` (Total: 120 µL).
      * **PB Pooled:** 30 µL each from `PB 5-1`, `PB 5-2`, `PB 5-3`, and `PB 5-4` (Total: 120 µL).
-![Final Labeled PCR Tubes in Storage Rack](../assets/final_PCR_tube.jpg)
+![Final Labeled PCR Tubes in Storage Rack](../assets/2026-06-24_final_PCR_tube.jpg)
 
 7. **Protein Quantification (NanoDrop Spec)**
    * Utilized a NanoDrop spectrophotometer to measure protein concentration ($A_{280}$) using the representative pooled samples (`PM`, `PJ`, `PB`) to evaluate extraction efficiency and determine baseline concentrations for downstream normalization.

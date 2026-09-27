@@ -93,7 +93,7 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
    * Verified that all plasticware had been pre-treated with DEPC and autoclaved to ensure a completely RNase-free environment.
    * Prepared 4 mortar and pestle sets along with metal laboratory spoons, decontaminating them completely with 70% Ethanol and RNase ZAP.
    * Prepared buckets filled with liquid nitrogen ($LN_2$) to maintain cryogenic temperatures throughout the extraction process.
-   ![Workstation and Equipment Setup](../assets/sample_grinding1.jpg)
+   ![Workstation and Equipment Setup](../assets/2026-06-24_sample_grinding1.jpg)
 
 
 2. **Cryogenic Grinding and Sample Tube Transfer**
@@ -107,7 +107,7 @@ The extraction batch consists of 12 unique samples in total, organized into 4 bi
      * Poured out any residual $LN_2$ from the chilled tube, then used the pre-chilled spoon to carefully transfer the pulverized sample powder into the tube.
      * Sealed the tube cap tightly and immediately submerged it back into the $LN_2$ bucket to preserve RNA integrity.
      * Thoroughly wiped down the mortar, pestle, and spoon with 70% Ethanol between samples to ensure an absolutely clean surface for the next replicate.
-    ![Cryogenic Leaf Tissue Homogenization](../assets/sample_grinding2.jpg)
+    ![Cryogenic Leaf Tissue Homogenization](../assets/2026-06-24_sample_grinding2.jpg)
 
 3. **TRIzol Addition, Lysis, and Incubation**
    * Transferred the 2.0 mL tubes containing the pulverized frozen plant tissue from the liquid nitrogen ($LN_2$) bucket directly into an ice bucket.

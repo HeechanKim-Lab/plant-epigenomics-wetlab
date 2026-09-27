@@ -62,7 +62,7 @@ The table below outlines the formulation for a single quantitative PCR (qPCR) re
 2. **High-Throughput Plate Selection and Physical Partitioning**
    * Utilized a standard 384-well qPCR plate (16 rows $\times$ 24 columns) to accommodate the multi-sample, multi-gene high-throughput expression assay.
    * **Physical Layout Optimization:** To minimize manual pipetting orientation errors and guarantee precise mapping, the surface of the 384-well plate was physically partitioned using a fine-tip permanent marker into a macro-grid consisting of a 3 $\times$ 6 block matrix. 
-![Physical Partitioning Grid on 384-Well qPCR Plate](../assets/PCR_plate_design.jpg)
+![Physical Partitioning Grid on 384-Well qPCR Plate](../assets/2026-07-07_PCR_plate_design.jpg)
 
 3. **Experimental Matrix Design and Architecture**
    * Each discrete block within the grid is structured as a 3 $\times$ 4 matrix:
@@ -100,7 +100,7 @@ The table below visualizes the exact physical partitioning of the 384-well plate
 
 7. **Strategic DNA Sample Aliquoting**
    * **Pipetting Technique Control:** Aliquoted exactly 2.0 µL of the individual Template DNA samples into their designated wells according to the plate map. To ensure total volumetric consistency and prevent droplet suspension or loss, the pipette tip was systematically positioned to touch a uniform, consistent quadrant of the inner well wall for each deposit.
-   ![Manual Template DNA Aliquoting with Digital Layout Reference](../assets/PCR_sample_aliquot.jpg)
+   ![Manual Template DNA Aliquoting with Digital Layout Reference](../assets/2026-07-07_PCR_sample_aliquot.jpg)
 
 8. **Progressive Master Mix Aliquoting and Sequential Photo-Shielding**
    * **Protocol Optimization & Technical Control (Photo-Protection):** To mitigate the severe risk of photo-bleaching and fluorescence decay of the SYBR Green master mix during the extended manual loading phase, the cocktail was introduced using a systematic, bottom-up row sequence coupled with progressive localized shielding.
@@ -109,7 +109,7 @@ The table below visualizes the exact physical partitioning of the 384-well plate
      * **Phase 2 (Rows D, E, F - *SRRM1-like*):** Proceeded to the adjacent upward tier, dispensing 8.0 µL of the *SRRM1-like* master mix cocktail into Rows D, E, and F. This specific sector was then immediately covered and shielded with the adhesive sealing film.
      * **Phase 3 (Rows A, B, C - *UPF2*):** Finalized the master mix delivery by aliquoting 8.0 µL of the *UPF2* cocktail into the top tier (Rows A, B, and C).
    * **Enzymatic Pre-reaction Avoidance:** For all master mix additions across all rows, the cocktail droplet was precisely deposited onto the **exact opposite inner wall surface** relative to the pre-deposited DNA template droplet. This rigorous physical partitioning prevented premature contact between the template DNA and the Taq polymerase, successfully eliminating ambient enzymatic activity, primer-dimer complexes, or non-specific amplification prior to the formal thermal cycling run.
-  ![Progressive Localized Photo-Shielding of Master Mix Rows](../assets/PCR_plate_covering2.jpg)
+  ![Progressive Localized Photo-Shielding of Master Mix Rows](../assets/2026-07-07_PCR_plate_covering2.jpg)
 
 9. **Plate Sealing and Hermetic Attachment**
    * Covered the entire 384-well plate with an adhesive optical PCR sealing film to isolate the reactions.
@@ -121,7 +121,7 @@ The table below visualizes the exact physical partitioning of the 384-well plate
 
 11. **Optical Surface Clearance and Contamination Removal**
     * **Technical Control Optimization:** Prior to loading the plate into the quantitative real-time PCR instrument, thoroughly wiped the upper surface of the optical sealing film with 70% ethanol (EtOH) and a clean laboratory towel. This step eliminated any fingerprints, skin lipids, smudges, or dust contamination that could scatter the optical excitation beam or degrade the quality of the fluorescence emission data collected by the instrument's sensors.
-    ![Optical Sealing Film Cleaning and Microplate Centrifugation Setup](../assets/PCR_thermocycler.jpg)
+    ![Optical Sealing Film Cleaning and Microplate Centrifugation Setup](../assets/2026-07-07_PCR_thermocycler.jpg)
 
 12. **Real-Time PCR Amplification and Thermal Cycling**
     * Inserted the prepared 384-well plate into the real-time PCR instrument, locked the heated lid assembly, and initiated the `PCRRUN` protocol under the `admin` user profile.
@@ -135,12 +135,12 @@ The table below visualizes the exact physical partitioning of the 384-well plate
       * **Dissociation / Melt Curve Analysis:**
         * *Final Denaturation:* 95.0°C for 10 seconds.
         * *Cool-Down / Pre-melt:* 65.0°C for 5 seconds, followed by a gradual thermal ramp up to 95.0°C accompanied by continuous fluorescence monitoring to verify amplification specificity and screen for primer-dimers.
-![Real-Time PCR Instrument Displaying Thermal Cycling Profile](../assets/PCR_cycle.jpg)
+![Real-Time PCR Instrument Displaying Thermal Cycling Profile](../assets/2026-07-07_PCR_cycle.jpg)
 
 13. **Data Retrieval and Technical Replicate Quality Control**
     * Exported the raw cycle threshold ($C_t$) values from the qPCR instrument software into Microsoft Excel for mathematical processing.
     * **Protocol Optimization (Outlier Truncation & Filtering):** Evaluated the 3 technical replicates for each sample to assess internal variance. Rather than filtering single discrepant wells blindly, if an entire biological replicate block (the complete 3 technical replicate wells within a specific sample coordinate) displayed irregular amplification curves, baseline shifts, or anomalous values, the entire technical replicate block was systematically truncated and excluded from downstream analysis to ensure mathematical rigor.
-  ![Real-Time PCR Software Interface Displaying Melt Curves and Peak Peaks](../assets/PCR_data_analysis.jpg)
+  ![Real-Time PCR Software Interface Displaying Melt Curves and Peak Peaks](../assets/2026-07-07_PCR_data_analysis.jpg)
 
 14. **Relative Quantification Calculations**
     * Computed the mean $C_t$ value for the validated, outlier-filtered technical replicates per sample.

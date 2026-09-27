@@ -188,7 +188,7 @@ Following previous functional studies utilizing *S1UPF3a* knockout mutations in 
      * Retrieved Taq DNA Polymerase from $-20^\circ\text{C}$ storage, immediately transferring it to a cold block/icebox.
      * Added $4.25\,\mu\text{L}$ Taq Polymerase ($0.25\,\mu\text{L}/\text{sample}$) to the tube.
      * Mixed gently by repeated pipetting with a P100 micropipette to fully homogenize the enzyme without introducing air bubbles.
-  ![1st and 2nd PCR Primers & Reagents](../assets/S1UPF3a_PCR_primer.jpg)
+  ![1st and 2nd PCR Primers & Reagents](../assets/2026-07-28_S1UPF3a_PCR_primer.jpg)
 
 10. **Direct-Wall Template Loading Technique and Thermal Cycling Execution**
 
@@ -215,7 +215,7 @@ Following previous functional studies utilizing *S1UPF3a* knockout mutations in 
      * Poured the stained agarose solution into the gel casting tray assembly and positioned the well comb.
      * Systematically popped all surface and well-adjacent air bubbles using a clean micropipette tip to prevent optical anomalies during imaging or band distortion during electrophoresis.
    * **Contamination Control & Solidification:** Covered the gel casting tray with a clean laboratory napkin to shield the matrix from ambient dust and airborne particulates, allowing it to polymerize completely at room temperature.
-![0.8% Agarose Gel Preparation](../assets/Agarose_gel_making.jpg)
+![0.8% Agarose Gel Preparation](../assets/2026-07-28_Agarose_gel_making.jpg)
 
 12. **Electrophoresis Chamber Setup and Buffer Submersion**
 
@@ -228,7 +228,7 @@ Following previous functional studies utilizing *S1UPF3a* knockout mutations in 
    * **Loading Dye Integration:** Aliquoted 2.00 µL of 6X DNA Loading Dye onto the Parafilm and mixed thoroughly with 10.00 µL of the respective DNA sample (total volume: 12.00 µL).
    * **Well Aliquoting:** Carefully loaded the 12.00 µL of mixed sample into the gel wells.
    * **Molecular Weight Marker:** Aliquoted 5.00 µL of the DNA Ladder into the leftmost well of each gel run to establish a standard sizing reference for fragment analysis.
-![Parafilm Sample & Loading Dye Mixing](../assets/Loading_dye.jpg)
+![Parafilm Sample & Loading Dye Mixing](../assets/2026-07-28_Loading_dye.jpg)
 
 14. **Electrophoretic Separation**
 
@@ -288,7 +288,7 @@ Following previous functional studies utilizing *S1UPF3a* knockout mutations in 
      * **Column Index Primer (D50y):** Aliquoted $1.00\,\mu\text{L}$ onto the opposing inner side wall at the **$180^\circ$ position**.
      * *Rationale:* Physical spatial separation of row and column indexing primers on opposite tube walls prevents premature non-specific hybridization and primer-dimer formation prior to initial thermal denaturation.
    * **Reaction Consolidation & Thermocycling:** Softly spun down the reaction strips in a benchtop microcentrifuge to coalesce all wall-bound components ($20.00\,\mu\text{L}$ final volume) and initiated thermal cycling under standard conditions.
-![Indexing Primers Set](../assets/S1UPF3a_3rd_primer.jpg)
+![Indexing Primers Set](../assets/2026-07-28_S1UPF3a_3rd_primer.jpg)
 
 
 19. **Full-Volume Preparative Gel Electrophoresis for Downstream Extraction**
@@ -302,10 +302,10 @@ Following previous functional studies utilizing *S1UPF3a* knockout mutations in 
    * **Gel Imaging & Analytical QC Screening:** 
      * Captured fluorescence gel images across all three PCR stages using the iBright 1500 Imaging System.
      * Visually inspected the 1st and 2nd analytical PCR gel runs to confirm clean, specific target amplification and the absence of off-target products or non-specific primer-dimers prior to downstream preparative processing.
-  ![iBright 1500 Gel Imager Tray](../assets/iBright1500_imager.jpg)
+  ![iBright 1500 Gel Imager Tray](../assets/2026-07-28_iBright1500_imager.jpg)
    * **UV Transillumination & Safety Protocol:** Upon verifying successful preliminary amplicon profiles, activated the UV transilluminator and equipped appropriate UV-protective eyewear.
    * **Preparative Target Band Excision:** Meticulously excised the exact target indexed DNA bands from the 3rd preparative PCR gel using a clean scalpel, minimizing excess agarose matrix around the bands.
-![3rd Indexing PCR Amplicon Gel Image](../assets/S1UPF3a_3rd_Electrophoresis.jpg)
+![3rd Indexing PCR Amplicon Gel Image](../assets/2026-07-28_S1UPF3a_3rd_Electrophoresis.jpg)
    * **Sample Fraction Isolation:** Transferred each excised gel slice into an individual, pre-labeled 1.5 mL microcentrifuge tube (Samples 1–15) for immediate silica-column extraction.
 
 

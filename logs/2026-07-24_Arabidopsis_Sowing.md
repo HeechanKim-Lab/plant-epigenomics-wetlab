@@ -39,7 +39,7 @@ The experiment is configured for synchronized high-density germination and unifo
    * Fabricated a wide-bore seed transfer tool by modifying a glass Pasteur pipette—snapping the narrow tip to widen the orifice diameter, permitting unobstructed seed passage without mechanical shearing or suction clogging.
    * Rinsed the modified pipette thoroughly with sterile 3'DW to remove residual glass micro-debris and pre-wet the interior walls.
    * Staged two 12-cell plant propagation trays (24 total culture cells) prior to seed inoculation.
-   ![Modified Wide-Bore Glass Pipette Seed Transfer Tool](../assets/glass_Pasteur_pipette.jpg)
+   ![Modified Wide-Bore Glass Pipette Seed Transfer Tool](../assets/2026-07-24_glass_Pasteur_pipette.jpg)
 
 3. **Substrate Preparation & Hydration Tuning:**
    * Surface-disinfected a large plastic mixing container thoroughly using 70% ethanol (EtOH).
@@ -50,13 +50,13 @@ The experiment is configured for synchronized high-density germination and unifo
    * Filled pre-cleaned, sodium hypochlorite (NaOCl)-sterilized 12-cell propagation trays with the prepared soil substrate.
    * Substrate was loosely loaded without mechanical compaction to maintain optimal soil aeration and macro-porosity for early root extension.
    * Molded the substrate surface of each cell into a slight convex (mounded) topology at the center to prevent water pooling and hypocotyl flooding.
-   ![Substrate Mixing Container and Tray Staging](../assets/plant_tray_preparation.jpg)
+   ![Substrate Mixing Container and Tray Staging](../assets/2026-07-24_plant_tray_preparation.jpg)
 
 5. **Pre-Sowing Substrate Hydration & Settling:**
    * Loaded the convex-mounded cells into the primary tray base and applied a thorough surface misting of single-distilled water (1'DW) using a fine aerosol sprayer.
    * Fine droplet misting facilitated gravimetric settling of the loose soil, collapsing the central mounds into flat, uniform seed beds without disturbing substrate porosity.
    * Continued spray hydration until the tray achieved significant gravimetric mass, ensuring complete saturation of the soil profile prior to seed inoculation.
-   ![Convex Substrate Profile and Aerosol Spray Saturation Setup](../assets/surface_misting.jpg)
+   ![Convex Substrate Profile and Aerosol Spray Saturation Setup](../assets/2026-07-24_surface_misting.jpg)
 
 6. **Seed Inoculation & Spatial Grid Matrix Layout:**
    * Aspirated the stratified *A. thaliana* seed-water suspension into the modified wide-bore glass pipette, applying subtle liquid pulsing to linearly align and singulate seeds within the stem barrel for controlled release.
@@ -71,4 +71,4 @@ The experiment is configured for synchronized high-density germination and unifo
    * Transferred covered propagation trays to a controlled-environment plant growth chamber maintained at a 12-hour light / 12-hour dark photoperiod.
    * Initiated daily visual inspections to monitor germination kinetics, hypocotyl elongation, and seedling health.
    * **Post-Germination Maintenance Plan:** Domes will remain intact for 7 days post-sowing. Following the 1-week germination phase, domes will be removed to allow atmospheric gas exchange, with standard bottom-irrigation regimens commencing immediately thereafter.
-   ![Transparent Dome Enclosure in Controlled Growth Chamber](../assets/growth_chamber.jpg)
+   ![Transparent Dome Enclosure in Controlled Growth Chamber](../assets/2026-07-24_growth_chamber.jpg)

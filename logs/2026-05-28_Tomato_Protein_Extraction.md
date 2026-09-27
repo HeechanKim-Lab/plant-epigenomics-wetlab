@@ -56,7 +56,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
    * Labeled each tube clearly with the sample ID followed by a suffix **'p'** to distinguish them from the RNA extraction sets (e.g., `P 1-1 p`, `M3 3-2 p`).
    * Placed a single small, circular glass bead into each of the 64 labeled 2.0 mL tubes for subsequent tissue homogenization.
 
-   ![Labeled Tubes Setup](../assets/labeled_tubes_rack.jpg)
+   ![Labeled Tubes Setup](../assets/2026-05-28_labeled_tubes_rack.jpg)
 
 2. **Protein Extraction Buffer (Cocktail) Preparation**
    * Formulated a master extraction stock buffer based on the 1 mL and 50 mL baseline recipes below:
@@ -95,13 +95,13 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
      * Removed the adapter block, submerged/showered it in $LN_2$ to re-chill, remounted it, and ran a second cycle at **30 Hz for 20 seconds**.
      * Immediately removed the homogenized sample tubes and transferred them directly into an ice bucket.
    * Repeated the cycle for the remaining 3 batches.
-   ![TissueLyser Disruption Station](../assets/tissuelyser_setup.jpg)
+   ![TissueLyser Disruption Station](../assets/2026-05-28_tissuelyser_setup.jpg)
 
 5. **Buffer Addition and Venting**
    * **Immediately** dispensed 100 µL of the pre-made Protein Extraction Cocktail into each pulverized sample tube straight out of the TissueLyser while the tissue was completely frozen, ensuring efficient protein extraction upon thawing.
    * *Note on Volume Optimization:* While the standard protocol typically requires 100–150 µL of extraction buffer, the volume was strictly limited to 100 µL here due to the relatively small size of the starting tissue samples, maximizing final protein concentration.
    * *Critical Step:* Left the tube caps slightly loose or cracked open while resting in the ice bucket. This allowed venting to prevent caps from popping open violently due to pressure differentials caused by the extreme temperature shift between the liquid nitrogen and the ice.
-   ![Venting Extracted Samples on Ice](../assets/venting_on_ice.jpg)
+   ![Venting Extracted Samples on Ice](../assets/2026-05-28_venting_on_ice.jpg)
 
 6. **Vortexing and Multi-Step Clarification (Centrifugation)**
    * Thoroughly vortexed each sample for 10+ seconds to ensure complete suspension and optimal protein lysis.

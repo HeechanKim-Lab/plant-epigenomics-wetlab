@@ -50,7 +50,7 @@ The experiment is configured for high-density germination and uniform growth acr
    - **Contamination & Recovery Precautions:** The white napkin substrate serves as a high-contrast backdrop and catch area. For low-yield experimental treatment seeds, static-driven or accidental seed dispersion without a clean backdrop results in unrecoverable sample loss.
    - **Technical Note & Optimization:** Seed count was visually estimated (~150 seeds/tube) given the excess availability of wild-type stock. 
    - **Critical Operational Standard:** Downstream experimental treatment samples with limited seed yields must undergo exact manual quantification prior to sterilization.
-   ![Cross-Creased Glassine Paper and Napkin Substrate Setup](../assets/Glassine_paper_setting.jpg)
+   ![Cross-Creased Glassine Paper and Napkin Substrate Setup](../assets/2026-07-21_Glassine_paper_setting.jpg)
 
 5. **Seed Surface Sterilization & Quality Selection:** Dispensed 1.0 mL of the prepared 20% NaClO working solution into each of the three seed-containing microcentrifuge tubes.
    - Vortexed briefly to ensure uniform exposure to disinfectant, followed by a gentle pulse spin-down to collect liquid and submerge the seeds.

@@ -133,7 +133,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
    * **Moisture Removal Technique:** Gently dabbed the rim/tip of each inverted microcentrifuge tube onto a clean laboratory wipe to remove residual liquid film without contacting the pellet itself.
    * Added 1.0 mL of 75% DEPC-treated ethanol to each sample to wash the pellet and remove residual salts.
    * Centrifuged the washed samples again at **13,000 RPM for 15 minutes at 4°C** to re-pellet the RNA.
-![Decanting Ethanol Wash Setup](../assets/removing_DEPC_70_ethanol.jpg)
+![Decanting Ethanol Wash Setup](../assets/2026-05-29_removing_DEPC_70_ethanol.jpg)
 
 
 9. **Ethanol Removal and Secondary Technical Spin**
@@ -147,7 +147,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
     * Used a fine pipette tip to carefully remove the last remaining microliter traces of ethanol that had aggregated at the bottom of the tubes after the 2-minute technical spin.
     * Left the tube caps open and allowed the RNA pellets to air-dry inside the clean bench for **5 minutes at room temperature (RT)** until the ethanol completely evaporated.
     * *Quality Control Check:* Verified that the pellets turned semi-translucent, confirming full evaporation of ethanol without over-drying, which would make the RNA difficult to resuspend.
-![Air-Drying Open Pellets in Clean Bench](../assets/drying_cleanBench.jpg)
+![Air-Drying Open Pellets in Clean Bench](../assets/2026-05-29_drying_cleanBench.jpg)
 
 11. **RNA Resuspension and Cold Storage**
     * Added exactly **30 µL** of standard Distilled Water (DW) to each dried RNA pellet to achieve a higher final concentration for downstream applications.
@@ -172,7 +172,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
 14. **DNase Incubation and Enzymatic Digestion**
     * Transferred all 64 reaction tubes to a pre-heated WiseThem HB-96D digital dry bath block heater.
     * Incubated the samples at **37°C for exactly 30 minutes** to allow the TURBO DNase enzyme to efficiently digest and clear any contaminating genomic DNA from the RNA preparations.
-![WiseThem Dry Bath Incubation at 37C](../assets/incubation_dryBath.jpg)
+![WiseThem Dry Bath Incubation at 37C](../assets/2026-05-29_incubation_dryBath.jpg)
 
 15. **Reaction Dilution, PCI Phase Separation, and Centrifugation**
     * Added 270 µL of DEPC-treated Distilled Water (DW) to each tube, bringing the total working reaction volume from 30 µL up to 300 µL.
@@ -180,7 +180,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
     * **PCI Liquid Handling Technique:** Since the PCI solution maintains an upper protective aqueous layer, the pipette tip was submerged deep into the lower organic phase to collect the reagent cleanly. The tip was then withdrawn slowly and steadily out of the upper layer to prevent dripping or cross-phase contamination.
     * Inverted the tubes repeatedly and thoroughly to mix the organic solvent with the diluted RNA sample.
     * Transferred the tubes immediately into the centrifuge and spun them at **13,000 RPM for 15 minutes at 4°C** to separate the protein-denaturing organic phase from the purified aqueous RNA phase.
-![Aspirating Lower Organic PCI Phase](../assets/PCI_pipetting.jpg)
+![Aspirating Lower Organic PCI Phase](../assets/2026-05-29_PCI_pipetting.jpg)
 
 16. **Precipitation Reagent Assembly and Supernatant Transfer**
     * Prepared a final set of 64 fresh, pre-labeled, DEPC-treated 1.5 mL tubes.
@@ -191,7 +191,7 @@ Each experimental group consists of 4 biological replicates across 4 distinct se
     * **Supernatant Extraction:** Recovered exactly 200 µL of the highly clear aqueous supernatant from the post-PCI centrifugation tubes and transferred it into the new tubes containing the absolute ethanol.
     * **Pipetting Technique Control:** Maintained the identical surface-downward, dead-center pipetting protocol established in Step 6 to guarantee that the lower organic interface and its concentrated debris floor remained entirely undisturbed during extraction.
     * **Precipitation Assembly:** Added exactly 21 µL of the prepared Sodium Acetate/Glycogen mixture to each sample tube (now containing 200 µL supernatant + 500 µL absolute ethanol), yielding a final precipitation mixture.
-![Aqueous Supernatant Over Debris Interphase Floor](../assets/PCI_cfg_supernatant.jpg)
+![Aqueous Supernatant Over Debris Interphase Floor](../assets/2026-05-29_PCI_cfg_supernatant.jpg)
 
 17. **Precipitation Mixing and Overnight Storage**
     * Inverted the fully assembled precipitation tubes repeatedly to ensure a completely homogeneous mixture of the RNA supernatant, absolute ethanol, sodium acetate, and glycogen carrier.

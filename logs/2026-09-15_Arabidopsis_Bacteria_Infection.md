@@ -217,9 +217,9 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
 
 5. **Solid Plate Revitalization and Bacterial Propagation (2026-09-11)**
    * **Aseptic Streak Inoculation:** Using a sterile $1000\,\mu\text{L}$ micropipette tip, scraped an aliquot of frozen cell mass directly from the *Pss* B728a glycerol stock and executed an isolation streak across the surface of a pre-warmed solid KB agar plate containing $34.0\,\mu\text{g/mL}$ Rifampicin.
-     ![Pss B728a Primary Streak Inoculation](../assets/2026_09_11_PssB728a_streaking1.jpg)
+     ![Pss B728a Primary Streak Inoculation](../assets/2026-09-11_PssB728a_streaking1.jpg)
    * **Parafilm Barrier Sealing:** Wrapped the circumferential dish interface with Parafilm to prevent agar matrix dehydration and atmospheric contamination during extended incubation.
-     ![KB Plate Circumferential Parafilm Sealing](../assets/2026_09_11_PssB728a_streaking2.jpg)
+     ![KB Plate Circumferential Parafilm Sealing](../assets/2026-09-11_PssB728a_streaking2.jpg)
    * **Incubation Parameters:** Transferred the sealed KB plate into a constant-temperature microbiological incubator set at **28°C** for 48–72 hours to obtain discrete, well-isolated single colonies for secondary liquid subculture.
 
 6. **Laminar Flow Hood Decontamination and Selective Broth Setup (2026-09-14)**
@@ -233,14 +233,14 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
 
 7. **Single-Colony Inoculation and Shaking Subculture (2026-09-14)**
    * **Colony Harvesting:** Retrieved the solid KB+Rif agar plate containing revitalized *Pseudomonas syringae* pv. *syringae* B728a (incubated since 2026-09-11), confirming well-defined, discrete colonial morphology.
-     ![Revitalized Pss B728a Colony Morphology on KB Agar](../assets/2026_09_14_PssB728a_KB1.jpg)
+     ![Revitalized Pss B728a Colony Morphology on KB Agar](../assets/2026-09-14_PssB728a_KB1.jpg)
    * **Aseptic Inoculation:** Using a sterile $200\,\mu\text{L}$ micropipette tip, picked a single, discrete *Pss* B728a colony and immersed the tip directly into one of the prepared 5.0 mL glass tubes.
    * **Suspension Homogenization:** Vortexed the inoculated tube vigorously to break up bacterial aggregates and ensure uniform dispersion throughout the nutrient broth.
    * **Incubation Parameters & Hardware Verification:** Loaded both glass tubes into a floor-model orbital shaking incubator (Vision Scientific Co., Ltd., Model VS-8480S).
      * **Temperature Telemetry:** Incubator setpoint established at $\text{SV} = 28.0^\circ\text{C}$ with real-time monitored process value operating at $\text{PV} = 27.8^\circ\text{C}$.
      * **Protocol Deviation (Elevated Agitation Rate & Telemetry):** Set agitation dial to 230 RPM (deviating from the reference protocol baseline of 200 RPM) to enhance dissolved oxygen transfer; digital tachometer read stabilized at **227 RPM**.
-     ![Starter Culture Test Tubes in Shaking Incubator](../assets/2026_09_14_PssB728a_KB2.jpg)
-     ![Shaking Incubator Operational Telemetry and Console](../assets/2026_09_14_PssB728a_KB3.jpg)
+     ![Starter Culture Test Tubes in Shaking Incubator](../assets/2026-09-14_PssB728a_KB2.jpg)
+     ![Shaking Incubator Operational Telemetry and Console](../assets/2026-09-14_PssB728a_KB3.jpg)
 
 8. **Host Plant Leaf Indexing and Stomatal Pre-Conditioning (2026-09-14)**
    * **Watering Restriction:** Strictly withheld water prior to leaf indexing in accordance with stomatal stabilization requirements, preventing premature stomatal aperture changes or foliar turgor imbalances.
@@ -248,13 +248,13 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
    * **Protocol Deviation (Phenotypic Morphology-Based Leaf Selection):** 
      * Indexed the **three largest, fully expanded mature rosette leaves** per plant using an indelible laboratory marker on the petiole base, rather than strictly relying on numerical phyllotactic sequence.
      * **Technical Rationale & Quality Control:** This morphological criterion was applied to ensure uniform surface area, mechanical resilience, and optimal stomatal density for syringe infiltration across slight individual developmental variations. Embryonic cotyledons and juvenile 1st/2nd leaves were strictly excluded from selection.
-    ![Indexed Mature Rosette Leaves with Petiole Demarcation](../assets/2026_09_15_At_Marked.jpg)
+    ![Indexed Mature Rosette Leaves with Petiole Demarcation](../assets/2026-09-15_At_Marked.jpg)
    * **Post-Marking Baseline Hydration:** Administered a minimal volume of water to the soil base to maintain baseline root viability without inducing leaf guttation or over-hydration ahead of bacterial infiltration.
 
 9. **Mid-Exponential Phase Subculture and Reactivation (2026-09-15 / 09:00)**
    * **Culture Evaluation:** Inspected the primary starter culture test tube after 16 hours of overnight incubation to confirm robust saturation, deep yellow carotenoid turbidity, and active cell growth.
    * **Subculture Inoculation:** Transferred the tubes to the laminar flow hood and aseptically pipetted **1.0 mL** of the primary *Pss* B728a culture into the second prepared glass test tube containing fresh selective liquid KB medium.
-     ![Primary Culture and Secondary Subculture Visual Comparison](../assets/2026_09_15_Reactivation.jpg)
+     ![Primary Culture and Secondary Subculture Visual Comparison](../assets/2026-09-15_Reactivation.jpg)
    * **Suspension Homogenization:** Vortexed the tube thoroughly to ensure uniform cell dispersion.
    * **Reactivation Parameters:** Incubated the subculture in the shaking incubator at **28°C and 230 RPM for 3 hours** to transition the bacterial population into the active, mid-exponential growth phase.
 
@@ -263,7 +263,7 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
       * Retrieved the reactivated glass culture tube following the 3-hour subculture period.
       * Prepared 150 mL of sterile $10\text{ mM MgSO}_4$ buffer in an autoclaved glass media bottle.
       * Labeled four sterile 1.5 mL microcentrifuge tubes (Tubes 1–4).
-    ![Bacterial Cell Harvesting Consumables Staging](../assets/2026_09_15_Harvesting.jpg)
+    ![Bacterial Cell Harvesting Consumables Staging](../assets/2026-09-15_Harvesting.jpg)
     * **Centrifugal Cell Pelleting:** Aliquoted 1.0 mL of reactivated bacterial broth into each of the four tubes (4.0 mL total harvested volume) and centrifuged at **13,000 RPM at room temperature (RT) for 5 minutes**.
       * **Protocol Deviation (Centrifugal Speed Optimization):** Spun at 13,000 RPM (increased from 12,000 RPM in the reference protocol) to ensure complete sedimentation and stable pellet compaction.
     * **Supernatant Clearance:** Decanted and aspirated the spent culture supernatant from all four tubes using a micropipette without disturbing the bacterial pellets.
@@ -272,19 +272,19 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
       * Transferred the entire 1.0 mL cell suspension from Tube 1 directly into Tube 2 to resuspend the second pellet.
       * Repeated this process sequentially through Tube 3 and Tube 4 to pool the bacterial biomass from all four tubes into a single 1.0 mL concentrated cell suspension.
       * Vortexed the consolidated suspension thoroughly to eliminate cell clumps and ensure complete homogeneity.
-    ![Sequential Pellet Consolidation and MgSO4 Resuspension Setup](../assets/2026_09_15_MgSO4_Dilution1.jpg)
+    ![Sequential Pellet Consolidation and MgSO4 Resuspension Setup](../assets/2026-09-15_MgSO4_Dilution1.jpg)
 
 11. **Spectrophotometric Quantification and Inoculum Working Solution Formulation (2026-09-15 / 12:00)**
     * **Analytical 1:10 Dilution Setup:** 
       * Labeled the consolidated cell stock tube as **`4 St`** and a fresh dilution tube as **`1/10 st`**.
       * Aliquoted $900\,\mu\text{L}$ of sterile $10\text{ mM MgSO}_4$ and $100\,\mu\text{L}$ of the concentrated cell suspension into tube `1/10 st`, followed by thorough vortexing.
-      ![Consolidated Cell Stock and Analytical 1:10 Dilution Tubes](../assets/2026_09_15_MgSO4_Dilution2.jpg)
+      ![Consolidated Cell Stock and Analytical 1:10 Dilution Tubes](../assets/2026-09-15_MgSO4_Dilution2.jpg)
     * **Optical Density Quantification ($\text{OD}_{600}$):** 
       * Configured the NanoDrop spectrophotometer to Cell Culture mode and enabled the 10 mm pathlength cuvette module.
       * Loaded $1.0\text{ mL}$ of sterile $10\text{ mM MgSO}_4$ into a standard cuvette to baseline (blank) the instrument.
       * Transferred the 1.0 mL 1:10 diluted bacterial suspension into an analytical cuvette and recorded absorbance at 600 nm.
       * **Measured Absorbance & Console Verification:** At 12:36, confirmed an optical density of **$\text{OD}_{600} = 0.614$** on the instrument console for the 1:10 dilution (corresponding to an undiluted equivalent $\text{OD}_{600} \approx 6.14$).
-        ![NanoDrop Optical Density OD600 Measurement Interface](../assets/2026_09_15_Nanodrop.jpg)
+        ![NanoDrop Optical Density OD600 Measurement Interface](../assets/2026-09-15_Nanodrop.jpg)
       * Post-measurement, recovered the sample volume from the cuvette back into its 1.5 mL microcentrifuge tube.
     * **Inoculum Normalization Calculation:** 
       * Target parameters: Final optical density $\text{OD}_{600} = 0.0001$ in a final volume of $50.0\text{ mL}$ ($50,000\,\mu\text{L}$) sterile $10\text{ mM MgSO}_4$.
@@ -304,11 +304,11 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
       * Pressed the tip of the needleless syringe flush against the abaxial (abaxial/lower) epidermis over areas with high stomatal density, applying minimal tactile force to establish a liquid-tight seal without compressing the mesophyll or bruising the leaf tissue.
     * **Apoplastic Infiltration Execution:** Carefully depressed the syringe plunger with steady, gentle hydrostatic pressure to drive the bacterial suspension through open stomata directly into the apoplast.
     * **Technical Control & Wounding Prevention:** Monitored the spread of the fluid wavefront to ensure complete, uniform water-soaking across the entire leaf lamina while strictly avoiding any mechanical tearing, epidermal crushing, or vascular puncture that could trigger non-specific wound-induced defense signaling.
-    ![Needleless Syringe Abaxial Stomatal Infiltration](../assets/2026_09_15_At_Infiltration.jpg)
+    ![Needleless Syringe Abaxial Stomatal Infiltration](../assets/2026-09-15_At_Infiltration.jpg)
 
 13. **Post-Infiltration Desiccation, Hydration, and High-Humidity Incubation (2026-09-15)**
     * **Ambient Leaf Lamina Desiccation:** Transferred infiltrated *Arabidopsis* plants to an ambient room-temperature (RT) workspace to allow water-soaked apoplastic fluid and surface moisture to evaporate.
-      ![Infiltrated Arabidopsis Cohort Ambient Desiccation Flat](../assets/2026_09_15_At_Infiltrated.jpg)
+      ![Infiltrated Arabidopsis Cohort Ambient Desiccation Flat](../assets/2026-09-15_At_Infiltrated.jpg)
     * **Protocol Deviation (Extended Desiccation Window):**
       * *Reference Expectation:* Foliar surface desiccation and apoplastic fluid absorption typically resolve in approximately 3 hours.
       * *Observed Execution:* Complete clearance of macroscopic surface water-soaking required **5 hours** under ambient ambient laboratory conditions. Plants were maintained at RT for the full 5-hour window until leaf cuticles were entirely dry to the touch prior to enclosure.
@@ -316,7 +316,7 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
     * **Saturated Microenvironment Fabrication (~100% RH):**
       * Placed non-perforated transparent plastic humidity covers over each pot assembly.
       * Clamped the base perimeter firmly using high-tension iron binder clips along the perimeter flanges to establish a hermetically sealed chamber, ensuring saturating relative humidity (**~100% RH**) to stimulate stomatal opening and promote bacterial intercellular proliferation.
-      ![Hermetically Sealed Humidity Dome Clamped on Plant Tray](../assets/2026_09_18_At_Cover.jpg)
+      ![Hermetically Sealed Humidity Dome Clamped on Plant Tray](../assets/2026-09-18_At_Cover.jpg)
     * **Incubation Parameters:** Transferred the sealed plant assemblies into the growth chamber maintained at **25°C under a 12-hour photoperiod (12 h light / 12 h dark)** for **3 days (72 hours post-inoculation / 3 dpi)** to monitor chlorosis and necrotic lesion symptom development.
 
 14. **Aseptic Consumables Preparation and Reagent UV Decontamination (Day 3 / 2026-09-18)**
@@ -327,13 +327,13 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
 
 15. **Phenotypic Exclusion Screening, Median Cohort Selection, and Leaf Disc Excision**
     * **Pathology-Specific Leaf Screening:** Excised inoculated leaves using ethanol-flamed stainless steel forceps, systematically excluding leaves exhibiting mechanical tears, wrinkling, or syringe-induced epidermal abrasion. Only leaves displaying authentic pathogenesis resulting from bacterial infiltration were retained.
-      ![Pathological Chlorosis vs Mechanical Damage Screening](../assets/2026_09_18_At_Damage.jpg)
+      ![Pathological Chlorosis vs Mechanical Damage Screening](../assets/2026-09-18_At_Damage.jpg)
     * **Black Background Contrast Array:** Arranged excised leaves across a non-reflective black contrast surface to maximize optical discrimination of chlorotic and water-soaked lesions. Positioned torn, bruised, or atypical outliers in a discarded staging area in the upper-left quadrant.
-      ![Symptom Severity Gradient Ranking on Black Contrast Pad](../assets/2026_09_18_At_Sorting.jpg)
+      ![Symptom Severity Gradient Ranking on Black Contrast Pad](../assets/2026-09-18_At_Sorting.jpg)
     * **Median Cohort Selection:** Ranked all qualifying leaves along a linear visual symptom severity gradient (spanning mild chlorosis on the left to advanced necrosis on the right). Segregated the **median eight leaves (Samples 1–8)** into an isolated middle row, eliminating extreme phenotypic outliers from both tails of the distribution.
-      ![Median Eight-Leaf Cohort Isolation and Dissection Setup](../assets/2026_09_18_At_Sorting_Median.jpg)
+      ![Median Eight-Leaf Cohort Isolation and Dissection Setup](../assets/2026-09-18_At_Sorting_Median.jpg)
     * **Standardized Disc Punching:** Sanitized a cylindrical biopsy punch with 100% ethanol and excised uniform circular leaf discs ($0.49\text{ cm}^2$) from the central lamina of each selected median leaf, preserving margin integrity and avoiding petiole vascular bundles.
-      ![Standardized Leaf Disc Excision on Contrast Surface](../assets/2026_09_18_At_Punch.jpg)
+      ![Standardized Leaf Disc Excision on Contrast Surface](../assets/2026-09-18_At_Punch.jpg)
 
 16. **Surface Sterilization and Mechanical Tissue Homogenization**
     * **Disinfectant Immersion & Protocol Deviation (Reduced Submersion Duration):**
@@ -345,7 +345,7 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
 17. **Microtiter 10-Fold Serial Dilution Execution**
     * **Reagent Reservoir Charging:** Transferred the sterile $10\text{ mM MgSO}_4$ buffer into the UV-decontaminated reagent reservoir.
     * **Diluent Aliquoting & Multichannel Pipetting:** Using an 8-channel automated pipette (Brand Transferpette® -8, 20–200 µL), dispensed exactly $180\,\mu\text{L}$ of $10\text{ mM MgSO}_4$ across Columns 1 through 4 of the 96-well microplate (Rows A–H corresponding to Samples 1–8).
-      ![Multichannel Pipette Aliquoting Across 96-Well Microplate](../assets/2026_09_18_Autopipette.jpg)
+      ![Multichannel Pipette Aliquoting Across 96-Well Microplate](../assets/2026-09-18_Autopipette.jpg)
     * **Primary Dilution ($10^{-1}$ / Column 1):** Aliquoted $20\,\mu\text{L}$ of undiluted leaf lysate from each microcentrifuge tube into its corresponding well in Column 1 and mixed thoroughly by pipetting up and down 10 times.
     * **Serial Dilution Cascading ($10^{-2}$ to $10^{-4}$ / Columns 2–4):**
       * Using the 8-channel multichannel pipette, aspirated $20\,\mu\text{L}$ from Column 1 ($10^{-1}$) and dispensed it into Column 2 ($10^{-2}$ dilution; 100-fold), followed by 10 repeated mixing cycles.
@@ -358,7 +358,7 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
       * Subdivided the bottom of each circular plate into six equal radial sectors ($60^\circ$ wedges) using an indelible laboratory marker.
       * Labeled sectors to evaluate two biological replicates across three dilution levels per plate (e.g., representative Plate 3 labeled **WT5** with dilution tiers 2, 3, 4 and **WT6** with dilution tiers 2, 3, 4).
       * **Boundary Delineation Strategy:** Positioned the sectors such that the boundary interface between the two distinct samples juxtaposed the highest dilution tier ($10^{-4}$) against the lowest dilution tier ($10^{-2}$), establishing stark colony density differences to immediately identify any inadvertent boundary crossing.
-      ![Radial Sextant Demarcation and Dilution Spot Plating on LB Agar](../assets/2026_09_18_LB_Streaking.jpg)
+      ![Radial Sextant Demarcation and Dilution Spot Plating on LB Agar](../assets/2026-09-18_LB_Streaking.jpg)
     * **Spot Plating & Agar Integrity Control:**
       * Aliquoted $20\,\mu\text{L}$ from each designated well in Columns 2, 3, and 4 onto its matching agar sector.
       * Spread the droplet evenly within the sector boundary using a gentle zig-zag surface-gliding motion with the pipette tip.
@@ -392,10 +392,10 @@ $$\text{where Total Extraction Volume} = 200\,\mu\text{L}, \quad \text{Plated Vo
 | **WT7** | 323 *(overcrowded)* | 40 | 5 | $10^{-3}$ ($N = 40$) |
 | **WT8** | 23 | 3 | 0 | $10^{-2}$ ($N = 23$) |
 
-![Colony Enumeration Plate WT1 and WT2 Across Dilutions 10-2 to 10-4](../assets/2026_09_20_WT1_WT2.jpg)
-![Colony Enumeration Plate WT3 and WT4 Across Dilutions 10-2 to 10-4](../assets/2026_09_20_WT3_WT4.jpg)
-![Colony Enumeration Plate WT5 and WT6 Across Dilutions 10-2 to 10-4](../assets/2026_09_20_WT5_WT6.jpg)
-![Colony Enumeration Plate WT7 and WT8 Across Dilutions 10-2 to 10-4](../assets/2026_09_20_WT7_WT8.jpg)
+![Colony Enumeration Plate WT1 and WT2 Across Dilutions 10-2 to 10-4](../assets/2026-09-20_WT1_WT2.jpg)
+![Colony Enumeration Plate WT3 and WT4 Across Dilutions 10-2 to 10-4](../assets/2026-09-20_WT3_WT4.jpg)
+![Colony Enumeration Plate WT5 and WT6 Across Dilutions 10-2 to 10-4](../assets/2026-09-20_WT5_WT6.jpg)
+![Colony Enumeration Plate WT7 and WT8 Across Dilutions 10-2 to 10-4](../assets/2026-09-20_WT7_WT8.jpg)
 
 ---
 
