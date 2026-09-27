@@ -243,7 +243,7 @@
    * **Dispersal Bead Staging:**
      * Using Instrument A, aseptically transferred **5 autoclaved borosilicate glass beads** onto the pre-hydrated $1/2$ B5 agar matrix.
    * **Target Propagule Micro-Harvesting:**
-     * Positioned donor thalli of *Marchantia polymorpha* ecotype **Tak-1** under aseptic laminar flow.
+     * Positioned donor thalli of *Marchantia polymorpha*  **YUC2p::GUS** under aseptic laminar flow.
      * Using Instrument B, carefully excised and picked mature vegetative gemmae directly from the dorsal thallus gemma cups (cupules), transferring the clustered propagules directly into the central $200\,\mu\text{L}$ aqueous droplet on the agar plate.
      ![Micro-Forceps Harvesting of Gemmae from Marchantia Thallus Gemma Cup](../assets/2026-09-14_Mp_Gemmae.jpeg)
    * **Orbital Hydrodynamic Dispersion:**
