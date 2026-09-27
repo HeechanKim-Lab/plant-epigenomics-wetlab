@@ -253,3 +253,19 @@
      * Inverted the lid slightly under laminar airflow, retrieved all 5 glass beads using Instrument A, and evacuated them into an autoclavable waste container without gouging the agar surface.
      ![Aseptic Evacuation of Borosilicate Dispersal Beads Using Flame-Sterilized Forceps](../assets/2026-09-14_Beads_Takeout.jpeg)
      * Closed the Petri dish and applied a circumferential seal along the dish interface using gas-permeable tape to maintain saturating internal relative humidity while permitting continuous aerobic respiratory exchange.
+
+8. **Seven-Day Post-Plating Phenotypic Evaluation and Culture Viability Verification**
+   * **Incubation Checkpoint:** Evaluated culture plates following a 7-day incubation period under controlled growth chamber conditions ($22\text{--}25^\circ\text{C}$) to verify seed germination efficiency, gemmae revitalization kinetics, and aseptic culture stability prior to downstream experimental sampling.
+   * ***Arabidopsis thaliana* (`CLV3p::GUS`) Vegetative Establishment:**
+     * Assessed seedlings cultured on full-strength MS basal medium supplemented with $2.0\%\text{ w/v}$ sucrose and solidified with $0.2\%\text{ w/v}$ Gellan gum.
+     * Confirmed high-efficiency, uniform seed germination across the culture plane, with seedlings successfully transitioning into early vegetative rosettes.
+     * Emerged seedlings displayed fully expanded, vibrant green bilateral cotyledon pairs, elongated hypocotyls, and early true leaf primordia flanking the central vegetative shoot apex.
+     * Primary roots exhibited healthy axial elongation and lateral branching traversing the transparent Gellan gum matrix, with zero observable bacterial or fungal contamination.
+     ![Arabidopsis thaliana CLV3p::GUS Seedling Germination and Early Vegetative Rosette Morphology at 7 Days Post-Plating](../assets/2026-09-21_W02_At_CLV3pGUS.jpg)
+   * ***Marchantia polymorpha* (`MpYUC2p::GUS`) Gemmae Revitalization and Thallus Morphogenesis:**
+     * Evaluated vegetative colonies cultured across three replicate reduced-dimension Petri dishes containing half-strength Gamborg B5 ($1/2$ B5) medium solidified with $1.0\%\text{ w/v}$ agar.
+     * Gemmae broke dormancy with near-$100\%$ viability, developing into expanding, multi-lobed dark green thalloid gametophytes exhibiting characteristic planar growth and bilateral symmetry.
+     * Resolved conspicuous apical notch invaginations along the expanding thallus margins, demarcating active meristematic zones and localized *YUC2* expression domains driving dichotomous branching.
+     * Visualized dense halos of translucent unicellular rhizoids proliferating from the ventral epidermis, anchoring the thalli securely into the agar substratum.
+     * Confirmed total absence of microbial epiphytic contamination across all three replicate vessels, validating the technical efficacy of aseptic micro-forceps harvesting, glass bead orbital dispersion, and surgical tape boundary sealing.
+     ![Marchantia polymorpha MpYUC2p::GUS Gemmae Vegetative Growth and Thallus Bifurcation Across Three Replicate Plates at 7 Days Post-Plating](../assets/2026-09-21_W02_Mp_YUC2pGUS.jpg)
