@@ -199,3 +199,27 @@
      ![Marchantia polymorpha Vegetative Thallus Lamina Cellular Organization](../assets/2026-09-21_Mp_Thallus.jpeg)
      * *Ventral Rhizoid Structures:* Resolved elongated unicellular rhizoid filaments projecting from the ventral thallus epidermis, discriminating both smooth-walled and internally peg-tuberculated structural walls.
      ![Marchantia polymorpha Ventral Unicellular Rhizoid Filaments](../assets/2026-09-21_Mp_Rhizoid.jpeg)
+
+6. **Brightfield Microscopy of GUS-Stained Reporter Lines (Imaged 2026-09-28)**
+   * **Specimen Provenance & Protocol Deviation (TA-Processed Specimens):**
+     * **Post-incubation processing (reaction termination, decolorization, dehydration, and mounting-medium preparation) was performed by the teaching assistants (TAs), not at the student bench.** Fully stained and processed Track A specimens were received for imaging.
+   * **Imaging Configuration:** Documented chromogenic (indigo-blue) precipitate localization in the three Track A reporter cohorts (`CLV3`, `CYCB1`, `YUC2`) by upright transmission brightfield microscopy with a digital camera interface. Signal was scored by spatial restriction of the blue precipitate to the expected meristematic region against an unstained surrounding tissue background.
+   * **Technical Limitation (Optical Resolution):** Teaching-grade optics restricted interpretation to tissue/organ-level localization; **cellular-resolution attribution was not achievable.** Several frames are partially out of focus and contain air-bubble artifacts.
+   * ***Arabidopsis thaliana* `At::CLV3p::GUS` (Shoot Apical Meristem Stem Cell Niche):**
+     * *Whole-Seedling Overview:* Cleared seedling displayed an unstained cotyledon pair, hypocotyl, and root; a single discrete blue focus was resolved at the shoot apex at the cotyledon junction. Circular refractile rings are entrapped air bubbles (optical artifacts), not GUS signal.
+     ![At CLV3p::GUS Seedling Overview with Apical GUS Focus](../assets/2026-09-28_At_CLV3_SAM1.JPG)
+     * *Shoot Apex (Higher Magnification):* Signal was compact and sharply delimited to the central apical region between the emerging cotyledon bases, consistent with *CLV3* promoter activity at the shoot apical meristem. The Central Zone (CZ) could not be delineated at this resolution. The signal core appeared near-opaque, indicating dense precipitate accumulation.
+     ![At CLV3p::GUS Shoot Apex Signal](../assets/2026-09-28_At_CLV3_SAM2.JPG)
+   * ***Arabidopsis thaliana* `At::CYCB1;1p::GUS` (Mitotic Reporter):**
+     * *Root Apex (Overview):* Blue precipitate was confined to the distal root tip as diffuse staining with scattered, more intensely stained foci; the proximal differentiation zone was unstained. The dark blue arc (upper right) is a bubble-edge refraction artifact.
+     ![At CYCB1;1p::GUS Root Apex with Scattered Focal Signal](../assets/2026-09-28_At_CYCB1_Root1.JPG)
+     * *Root Meristem (Higher Magnification):* Strong blue signal spanned the distal meristematic region with locally higher-intensity patches, consistent with *CYCB1;1* promoter activity in the root apical meristem (RAM). Signal declined toward the cap and proximal elongation zone.
+     ![At CYCB1;1p::GUS Root Apical Meristem Signal](../assets/2026-09-28_At_CYCB1_Root2.JPG)
+     * *Shoot Region:* Signal localized to a discrete apical domain as a diffuse, radially graded blue field with adjacent tissue largely unstained.
+     ![At CYCB1;1p::GUS Shoot Apical Region Signal](../assets/2026-09-28_At_CYCB1_Shoot.JPG)
+   * ***Marchantia polymorpha* `Mp::YUC2p::GUS` (Apical Notch Auxin Biosynthesis Reporter):**
+     * *Apical Notch (Single Cleft):* Blue precipitate was restricted to the innermost point of the marginal apical notch invagination; a second focus was partially visible in an adjacent cleft at the lower field edge. Thallus lamina distal to the notch was unstained.
+     ![Mp YUC2p::GUS Apical Notch Signal at Marginal Cleft](../assets/2026-09-28_Mp_YUC2_Notch1.JPG)
+     * *Apical Notch (Paired Clefts):* Two discrete blue foci were positioned at the base of adjacent notch invaginations on the same thallus lobe, flanked by mucilage papillae and rhizoids at the margin.
+     ![Mp YUC2p::GUS Paired Apical Notch Signal](../assets/2026-09-28_Mp_YUC2_Notch2.JPG)
+   * **Cross-Line Summary:** All three reporters yielded precipitate restricted to the predicted meristematic regions (shoot apex for *CLV3*; root and shoot apices for *CYCB1;1*; apical notches for *YUC2*), with no signal in cotyledon lamina, hypocotyl, or mature thallus lamina. This is a well-watered baseline expression pattern; no drought treatment was applied.
