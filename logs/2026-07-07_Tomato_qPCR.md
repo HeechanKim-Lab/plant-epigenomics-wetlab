@@ -1,7 +1,7 @@
 # Tomato F1 qPCR (2026-07-07)
 
 **Date:** 2026-07-07
-**Material:** DNA from leaves of 24 F1 plants (MES control, GB soil, GJ soil; sets 4 and 5, four plants each)
+**Material:** cDNA from leaves of 24 F1 plants (MES control, GB soil, GJ soil; sets 4 and 5, four plants each)
 **Targets:** *UPF2*, *SRRM1-like*; reference gene *Actin*
 **Format:** 384-well plate, SYBR Green, 10 µL reactions, three technical replicates per sample
 
@@ -19,13 +19,13 @@ F1 generation of the multi-generation soil experiment (design in 2026-05-28): th
 | F1 GB | 4-1, 4-2, 4-3, 4-4 | 5-1, 5-2, 5-3, 5-4 |
 | F1 GJ | 4-1, 4-2, 4-3, 4-4 | 5-1, 5-2, 5-3, 5-4 |
 
-The 24 DNA samples were stored at −20 °C in 0.2 mL PCR tubes.
+The 24 cDNA samples were stored at −20 °C in 0.2 mL PCR tubes.
 
 ---
 
 ## Preparation
 
-* **Template:** the 24 F1 DNA samples.
+* **Template:** the 24 F1 cDNA samples.
 * **Primers:** forward and reverse primers for *UPF2*, *SRRM1-like* and *Actin*, 10 pmol stocks.
 * **Plate:** one 384-well qPCR plate, marked with a fine permanent marker into a 3 × 6 grid of blocks.
 * **Tubes:** 6 × 1.5 mL tubes for master mixes (one per gene and set).
@@ -39,7 +39,7 @@ Reaction (1X) and master mix for 40 reactions (40X, including replicates and ext
 
 | Component | Stock | 1X | 40X |
 | :--- | :---: | :---: | :---: |
-| Template DNA | 50 ng/µL | 2.0 µL | — |
+| Template cDNA | 50 ng/µL | 2.0 µL | — |
 | Forward primer | 5 pmol | 1.0 µL | 40.0 µL |
 | Reverse primer | 5 pmol | 1.0 µL | 40.0 µL |
 | SYBR Green master mix | — | 5.0 µL | 200.0 µL |
@@ -88,7 +88,7 @@ The plate map does not include no-template controls.
    * The plate was taped to the bench so that it would not move during manual pipetting.
 
 6. **Template loading**
-   * 2.0 µL of template DNA per well, following the plate map. The tip touched the same position on the well wall for every well.
+   * 2.0 µL of template cDNA per well, following the plate map. The tip touched the same position on the well wall for every well.
 
    ![Template loading](../assets/2026-07-07_PCR_sample_aliquot.jpg)
 

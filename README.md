@@ -32,7 +32,7 @@ The 1/2 MS medium (2026-07-01) and the plasmid preparation (2026-07-09) are sepa
 | 2026-06-24 | [Tomato protein extraction, P](logs/2026-06-24_Tomato_Protein_Extraction.md) | 12 P-generation samples; mortar grinding; pooled NanoDrop A280 | — |
 | 2026-06-25 | [Tomato RNA extraction, P](logs/2026-06-25_Tomato_RNA_Extraction.md) | Same 12 samples; TRIzol; TURBO DNase on one of two aliquots | — |
 | 2026-07-01 | [1/2 MS medium](logs/2026-07-01_MS_media.md) | 1 L of 1/2 MS with 0.7% agar | — |
-| 2026-07-07 | [Tomato F1 qPCR](logs/2026-07-07_Tomato_qPCR.md) | 24 F1 DNA samples; *UPF2*, *SRRM1-like*, *Actin*; 384-well plate | Ct values not included |
+| 2026-07-07 | [Tomato F1 qPCR](logs/2026-07-07_Tomato_qPCR.md) | 24 F1 cDNA samples; *UPF2*, *SRRM1-like*, *Actin*; 384-well plate | Ct values not included |
 | 2026-07-09 | [Plasmid extraction](logs/2026-07-09_Plasmid_DNA_Extraction.md) | pGEX-5X-1 from *E. coli* DH5α; spin columns; 40 µL elution | 123.5 and 125.8 ng/µL |
 | 2026-07-20 | [Reagent notes](logs/2026-07-20_Chemical_Properties.md) | Properties, roles and safety of the extraction reagents | — |
 | 2026-07-21 | [Seed sterilization](logs/2026-07-21_Arabidopsis_Bacteria_Pathogen_Infection_Preparation.md) | Col-0 seeds; 20% NaClO with Triton X-100; 72 h stratification | — |
@@ -57,7 +57,7 @@ The 1/2 MS medium (2026-07-01) and the plasmid preparation (2026-07-09) are sepa
 ### PCR-based assays
 
 * **Amplicon libraries (*SlUPF3a*):** 1st PCR with locus primers, 2nd nested PCR, 3rd PCR with dual indexes (D701–D702 × D501–D508). Index primers were placed on opposite sides of the tube wall and combined by the spin-down. 0.8% agarose gels; gel extraction of the 3rd PCR products; NanoDrop (A260/A280, A260/A230).
-* **qPCR (tomato F1):** 384-well plate, SYBR Green, 10 µL reactions; *UPF2* and *SRRM1-like* with *Actin* as reference; 24 samples in technical triplicate; master mix loaded tier by tier with light shielding; relative quantification by 2^−ΔΔCt.
+* **qPCR (tomato F1):** 384-well plate, SYBR Green, 10 µL reactions; *UPF2* and *SRRM1-like* with *Actin* as reference; 24 cDNA samples in technical triplicate; master mix loaded tier by tier with light shielding; relative quantification by 2^−ΔΔCt.
 * **cDNA:** oligo(dT) priming and SuperScript II; 42 °C for 60 min, 70 °C for 15 min; diluted to 200 µL.
 
 ### Plant and microbiology work
@@ -81,23 +81,13 @@ Protein readings, qPCR Ct values and sequencing results are not included in the 
 
 ---
 
-## 5. Notes and open points
-
-* **qPCR template (2026-07-07).** The template is recorded as DNA, and the analysis file in the screenshot is named "4set_GB_DMR". Whether the assay measures DNA methylation (DMR) or expression, and how the template was prepared, is not recorded in the log.
-* **Primer stocks (2026-07-07).** 10 pmol stocks were used instead of the 5 pmol in the reference protocol.
-* **Controls.** The qPCR plate map has no no-template controls; the infection test used untreated plants only.
-* **Strain substitution (2026-09-15).** *P. syringae* pv. *syringae* B728a was used instead of the planned *P. syringae* pv. *tomato* DC3000.
-* **Course work.** Logs 2026-09-14 and 2026-09-21 are course practicals; media and the final processing of the GUS samples were done by the teaching assistants.
-
----
-
-## 6. Instruments and kits named in the logs
+## 5. Instruments and kits named in the logs
 
 TissueLyser; NanoDrop and NanoDrop 2000c (Thermo Scientific); WiseTherm HB-96D dry bath; Bio-Rad C1000 Touch thermal cycler; iBright 1500 imaging system; Vision Scientific VS-8480S shaking incubator; Brand Transferpette-8 multichannel pipette; TRIzol; TURBO DNase; SuperScript II reverse transcriptase (Invitrogen); FAPD plasmid kit buffers; gel extraction buffers GDB and NSW.
 
 ---
 
-## 7. Repository layout
+## 6. Repository layout
 
 ```text
 .
