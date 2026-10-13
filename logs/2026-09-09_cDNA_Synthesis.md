@@ -1,229 +1,138 @@
-# cDNA Synthesis Log (2026-09-09)
+# First-Strand cDNA Synthesis: Arabidopsis Col-0 and Tomato Moneymaker (2026-09-09)
 
-
-## Background & Project Narrative
-
-### 1. Mechanistic Context: AS-NMD Surveillance as an Immune Rheostat
-In plant immune regulation, *SNC1* (Suppressor of *npr1-1*, Constitutive 1) functions as an endogenous substrate of the nonsense-mediated mRNA decay (NMD) pathway rather than an upstream regulator. While the genomic locus remains wild-type and free of nonsense mutations, *SNC1* pre-mRNA undergoes extensive alternative splicing (AS). Regulated splicing events—such as intron retention or alternative splice site selection—shift the reading frame to introduce premature termination codons (PTCs). 
-
-Under physiological conditions, plant cells exploit alternative splicing-coupled nonsense-mediated decay (AS-NMD) as an essential post-transcriptional rheostat:
-* The core NMD surveillance machinery (including UPF1, UPF2, UPF3, and SMG7) continuously scans and targets PTC-bearing *SNC1* isoforms for rapid cytoplasmic degradation.
-* This targeted transcript turnover restricts toxic intracellular accumulation of nucleotide-binding leucine-rich repeat (NLR) receptors, preventing spontaneous autoimmunity and systemic necrosis.
-
-### 2. cDNA-Derived Reporter Architecture & Intrinsic Decay Determinants
-To quantitatively benchmark decay mechanics, this investigation shifts from tracking real-time splicing kinetics to assaying the intrinsic NMD-inducing capacity of predetermined sequences via an ectopic cDNA expression platform. Because the cloned cDNA inserts are pre-spliced and devoid of introns, cellular splicing choices are completely bypassed.
-
-The cloned candidate sequences (including *SNC1* and two complementary test candidates) function strictly as mRNA stability determinants:
-* The experimental system tests whether specific structural features—such as invariant PTCs, extended 3′ UTRs, or localized destabilizing elements—are sufficient to recruit the cytoplasmic NMD machinery.
-* Transcript turnover is monitored purely as a function of mRNA sequence architecture rather than dynamic exon assembly or junction complex formation.
-
-### 3. RUBY-Coupled Metabolic Readout
-Decay kinetics are coupled directly to a non-destructive visual metabolic reporter via a downstream polycistronic **RUBY** cassette, which converts endogenous L-tyrosine into the visually distinct pigment betalain. Phenotypic color intensity correlates inversely with NMD efficacy:
-* **High NMD Efficiency (Decay Triggered):** Efficient surveillance recruitment drives rapid transcript degradation. The drastically shortened transcript half-life precludes translation of the RUBY biosynthetic enzymes, leaving transformed tissue green (pigment-null).
-* **Low NMD Efficiency / Decay Evasion:** Stable cytoplasmic transcripts undergo robust translation, driving enzymatic production of betalain and resulting in pronounced macroscopic red pigmentation.
-
-### 4. Cross-Species Evolutionary Scope
-Candidate sequences were prepared from both *Arabidopsis thaliana* ecotype Columbia-0 (*A. thaliana* Col-0, `At`) and tomato (*Solanum lycopersicum* cv. Moneymaker, `MM`). This comparative model tests whether NLR-derived surveillance triggers and structural decay signals maintain functional cross-species compatibility across Brassicaceae and Solanaceae, identifying conserved sequence elements for synthetic post-transcriptional circuit design.
-
-## Experimental Design
-First-strand cDNA synthesis was performed using post-DNase treated Total RNA samples to generate stable templates for cloning candidate decay determinants into the RUBY reporter cassette.
-
-**Sample Grid & Batch Configuration:**
-The reverse transcription batch consists of 2 unique sample groups processed in parallel:
-* **At Group:** *Arabidopsis thaliana* ecotype Col-0 Total RNA (`At`)
-* **MM Group:** *Solanum lycopersicum* cv. Moneymaker Total RNA (`MM`)
+**Date:** 2026-09-09
+**Material:** DNase-treated total RNA of *Arabidopsis thaliana* Col-0 (`At`) and *Solanum lycopersicum* cv. Moneymaker (`MM`), recovered from an overnight ethanol precipitation
+**Enzyme:** SuperScript II reverse transcriptase (200 U/µL, Invitrogen), oligo(dT) primer
+**Output:** 2 × 200 µL diluted cDNA, stored at −20 °C
 
 ---
 
-## Pre-Run Preparations
+## Background
 
-* **Consumables (Per Sample / Batch):** 
-  * 1 × 1.5 mL microcentrifuge tube (Post-DNase RNA pellet recovery & resuspension)
-  * 1 × 0.2 mL thin-wall PCR tube (Annealing & first-strand cDNA synthesis)
-  * 2 × 1.5 mL sterile microcentrifuge tubes per batch (`Step 1` and `Step 2` Master Mix assembly)
-* **Equipment:** 
-  * Laminar flow clean bench
-  * Bio-Rad C1000 Touch Thermal Cycler
-  * Thermo Scientific NanoDrop 2000c Spectrophotometer
-  * Vortex mixer
-  * Ice bucket
-* **Disinfection & Solvents:** 
-  * 70% DEPC-treated Ethanol (RNA pellet desalting wash)
-  * DEPC-treated Distilled Water (D.W., RNA resuspension)
-  * Sterile Distilled Water ($3^\circ\text{ DW}$, cDNA dilution and optical blanking)
+The cDNA is the template for cloning candidate sequences, including *SNC1* and two other candidates, into a RUBY reporter construct. *SNC1* encodes an NLR immune receptor, and some of its splice isoforms are targets of nonsense-mediated mRNA decay (NMD).
+
+* **Reporter design.** RUBY converts tyrosine into the red pigment betalain. If the transcript carrying a candidate sequence is degraded by NMD, little RUBY enzyme is made and the tissue stays green; if the transcript is stable, the tissue turns red.
+* **Why cDNA.** The cloned inserts have no introns, so the assay tests features of the mRNA sequence itself (for example premature termination codons or long 3′ UTRs), not splicing.
+* **Species.** Candidates come from Arabidopsis (Col-0) and tomato (Moneymaker), to compare NMD-related sequence features between the two species.
 
 ---
 
-## Reference Protocol
+## Preparation
 
-### 1. DNase Treatment
-
-#### Reaction Mixture
-
-| Component | Volume |
-| :--- | :---: |
-| 10X Reaction Buffer (Salt) | 3 µL |
-| 10X TURBO DNase | 2 µL |
-| Total RNA | 25 µL |
-| **Total Volume** | **30 µL** |
-
-#### Protocol
-
-* **1)** Mix gently by pipetting, then incubate at 37°C for 30 minutes to digest residual genomic DNA.
-* **2)** Add 270 µL of DEPC-treated Distilled Water (D.W.) to bring the total volume up to 300 µL.
-* **3)** Add 300 µL of PCI (Phenol:Chloroform:Isoamyl Alcohol = 25:24:1) (equal to the total aqueous volume) and mix thoroughly by inverting.
-* **4)** Centrifuge at 13,000 rpm for 15 minutes at 4°C to achieve phase separation.
-* **5)** Transfer 200 µL of the aqueous supernatant into a new 1.5 mL microcentrifuge tube, then add the following precipitation reagents:
-
-| Precipitation Component | Volume |
-| :--- | :---: |
-| 3 M Sodium Acetate (pH 5.2, RNA grade) | 20 µL |
-| Glycogen (10 mg/mL) | 1 µL |
-| Absolute Ethanol (100%) | 500 µL |
-
-* Mix thoroughly by inverting and incubate at -20°C overnight for complete nucleic acid precipitation.
-* **6)** Centrifuge at 13,000 rpm for 15 minutes at 4°C to pellet the precipitated RNA.
-* **7)** Carefully aspirate and discard the supernatant without disturbing the pellet, add 1 mL of 70% DEPC-treated ethanol, and centrifuge for 1 minute.
-* **8)** Repeat step 7 (the ethanol wash step) once more to ensure thorough desaltification.
-* **9)** Air-dry the ethanol-washed RNA pellet completely until evaporation is achieved, resuspend in 50 µL of DEPC-treated Distilled Water (D.W.), and store at -20°C.
-
-### 2. cDNA Synthesis
-
-#### Protocol
-
-* **1)** Maintain DNase-treated Total RNA template and Oligo dT stock solutions chilled on ice.
-* **2)** Prepare the annealing master cocktail containing Oligo dT and 10 mM dNTP mix. Aliquot 3.0 µL of the cocktail and 10.5 µL of Total RNA template into fresh PCR tubes:
-
-**Step 1: Primer Annealing Reaction Mixture**
-
-| Component | Volume |
-| :--- | :---: |
-| Total RNA (DNase-treated) | 10.5 µL |
-| Oligo dT | 1.0 µL |
-| 10 mM dNTP Mix | 2.0 µL |
-| **Total Annealing Volume** | **13.5 µL** |
-
-* **3)** Incubate in a thermal cycler at 65°C for 5 minutes to denature secondary structures and anneal primers, then immediately transfer the reaction tubes to ice.
-* **4)** Assemble the Step 2 reverse transcription master mix on ice, incorporating RTase immediately prior to dispensing. Aliquot 6.5 µL of the master mix into each annealed sample tube to reach a total working volume of 20.0 µL:
-
-**Step 2: Reverse Transcription Master Mix**
-
-| Component | Volume |
-| :--- | :---: |
-| 5X First-Strand Buffer | 4.0 µL |
-| 0.1 M DTT | 2.0 µL |
-| RTase* | 0.5 µL |
-| **Cocktail Volume Added** | **6.5 µL** |
-
-*\*Note: Incorporate RTase into the cocktail immediately before aliquoting.*
-
-* **5)** Execute the reverse transcription and enzyme inactivation program in the thermal cycler:
-  * **cDNA Synthesis:** 42°C for 60 minutes
-  * **Enzyme Inactivation:** 70°C for 15 minutes
-* **6)** Dilute the synthesized cDNA reaction by adding 180 µL of sterile Distilled Water ($3^\circ\text{ DW}$) to each tube (final volume: 200 µL). Quantify nucleic acid concentration and purity using a NanoDrop spectrophotometer, and store aliquots at -20°C.
+* **Consumables:** per sample, one 1.5 mL tube (RNA pellet) and one 0.2 mL PCR tube (cDNA synthesis); two 1.5 mL tubes for the `Step 1` and `Step 2` master mixes.
+* **Equipment:** clean bench, Bio-Rad C1000 Touch thermal cycler, Thermo Scientific NanoDrop 2000c, vortex mixer, ice bucket.
+* **Solutions:** 70% ethanol made with DEPC water (pellet washes), DEPC water (RNA resuspension), sterile triple-distilled water (3DW; cDNA dilution and NanoDrop blank).
 
 ---
 
-## Bench Execution Log & Deviations
+## Reference protocols
 
-1. **Post-Overnight Precipitation Pelleting and Clean Bench Setup**
-   * Retrieved the post-DNase precipitation tubes from overnight storage at -20°C.
-   * Centrifuged the samples at **13,000 RPM for 15 minutes at 4°C** to firmly pellet the precipitated RNA.
-   * Sterilized the laminar flow clean bench work surface by thoroughly wiping it down with 70% Ethanol and laboratory wipes.
-   * Transferred the centrifuged tubes directly into the decontaminated clean bench.
-   * Carefully decanted the supernatant into the designated organic liquid waste container, taking care not to dislodge the pellet, and gently dabbed the inverted tube rims onto sterile laboratory wipes to blot residual liquid.
-   ![Clean Bench Setup and Tube Rack Preparation](../assets/2026-09-09_CleanBench_Preparation.jpg)
+### 1. DNase treatment
 
-2. **Sequential 70% Ethanol Washes (Dual Desalting)**
-   * Dispensed **1.0 mL of 70% DEPC-treated ethanol** into each tube to wash the RNA pellet and desalt the precipitation matrix.
-   * Centrifuged the samples at **13,000 RPM for 1 minute at 4°C**.
-   * Transferred tubes back into the clean bench, decanted the ethanol supernatant smoothly into the waste receptacle, and dabbed the rims onto laboratory wipes.
-   * Repeated the wash sequence: added a second **1.0 mL** aliquot of 70% DEPC-treated ethanol, centrifuged at **13,000 RPM for 1 minute at 4°C**, decanted, and dabbed dry.
+As in 2026-05-29: 25 µL RNA + 3 µL 10X reaction buffer + 2 µL TURBO DNase, 37 °C for 30 min; + 270 µL DEPC water; + 300 µL PCI, 13,000 rpm, 4 °C, 15 min; 200 µL aqueous phase + 20 µL 3 M sodium acetate (pH 5.2) + 1 µL glycogen (10 mg/mL) + 500 µL absolute ethanol, −20 °C overnight. This log starts with the remaining steps:
 
-3. **Residual Ethanol Technical Spin and Micro-Aspiration**
-   * **Technical Centrifugation Step:** Spun the empty tubes at **13,000 RPM for 1 minute at 4°C** to force all residual ethanol droplets adhering to the tube walls down to the bottom.
-   * Returned the tubes to the clean bench.
-   * Carefully aspirated and removed the aggregated residual ethanol at the tube base using a 100 µL pipette.
-   * **Contamination & Yield Control:** Positioned the tip strictly away from the white RNA pellet along the opposing tube wall to prevent dislodging or aspirating nucleic acid material.
-   * **Waste Disposal:** Discarded the accumulated decanted supernatant and ethanol wash fractions from the temporary collection container into the designated organic solvent waste receptacle.
+6. Centrifuge at 13,000 rpm, 4 °C, 15 min.
+7. Remove the supernatant, add 1 mL of 70% ethanol (DEPC water) and centrifuge for 1 min.
+8. Repeat step 7 once.
+9. Air-dry the pellet, dissolve in 50 µL DEPC water and store at −20 °C.
 
-4. **Pellet Air-Drying and Visual Clearance Assessment**
-   * Maintained open tubes inside the laminar flow hood at room temperature to allow ethanol evaporation.
-   * **Protocol Deviation (Extended Drying):** The standard 5-minute air-drying period was insufficient; the RNA pellets remained visibly opaque and white rather than transitioning to the expected translucent/clear state. Extended air-drying inside the hood for an **additional 5 minutes (10 minutes total drying time)** until pellets achieved complete optical transparency, confirming full solvent evaporation without over-drying.
+### 2. cDNA synthesis
 
-5. **RNA Resuspension and Cold Stabilization**
-   * Added **50 µL of DEPC-treated Distilled Water (D.W.)** directly onto each dried RNA pellet.
-   * Fully dissolved and resuspended the nucleic acid pellets via gentle mechanical pipetting.
-   * Immediately transferred and seated the resuspended RNA tubes into an ice bucket to preserve transcript integrity for downstream cDNA synthesis.
+1. Keep the DNase-treated RNA and the oligo(dT) on ice.
+2. Prepare the Step 1 mix (oligo(dT) and dNTPs); put 3.0 µL of mix and 10.5 µL RNA into each PCR tube.
 
-6. **cDNA Synthesis Reagent Retrieval and Cold Setup**
-   * Retrieved key cDNA synthesis reagents from -20°C storage: **Oligo dT**, **10 mM dNTPs Mix**, **5X First-Strand Buffer**, and **0.1 M DTT**.
-   * Transferred and seated all reagent vials immediately into the ice bucket to prevent thermal degradation.
-   * Prepared two sterile, pre-autoclaved 1.5 mL microcentrifuge tubes labeled `Step 1` and `Step 2` for master mix assemblies.
-   ![cDNA Synthesis Reagents Chilled on Ice](../assets/2026-09-09_Ice_Bucket.jpg)
-   ![Oligo dT Stock Reagent](../assets/2026-09-09_Oligo_dT.jpg)
-   ![10 mM dNTPs Mix Stock Reagent](../assets/2026-09-09_10mM_dNTPs_Mix.jpg)
+   | Step 1: annealing | Volume |
+   | :--- | :---: |
+   | Total RNA (DNase-treated) | 10.5 µL |
+   | Oligo(dT) | 1.0 µL |
+   | 10 mM dNTP mix | 2.0 µL |
+   | **Total** | **13.5 µL** |
+
+3. 65 °C for 5 min in a thermal cycler, then directly on ice.
+4. Prepare the Step 2 mix on ice and add the reverse transcriptase just before dispensing; add 6.5 µL to each tube (20.0 µL total).
+
+   | Step 2: reverse transcription | Volume |
+   | :--- | :---: |
+   | 5X First-Strand Buffer | 4.0 µL |
+   | 0.1 M DTT | 2.0 µL |
+   | Reverse transcriptase | 0.5 µL |
+   | **Added per tube** | **6.5 µL** |
+
+5. 42 °C for 60 min (cDNA synthesis), then 70 °C for 15 min (enzyme inactivation).
+6. Add 180 µL sterile 3DW (200 µL total), measure on the NanoDrop and store at −20 °C.
+
+---
+
+## Bench record and deviations
+
+1. **Pelleting after the overnight precipitation**
+   * The post-DNase precipitation tubes were taken from −20 °C and centrifuged at 13,000 rpm, 4 °C, 15 min.
+   * The clean bench was wiped with 70% ethanol and the tubes were moved into it.
+   * The supernatant was decanted into the organic waste container without disturbing the pellet, and the rims were blotted on sterile wipes.
+
+   ![Clean bench and tube rack](../assets/2026-09-09_CleanBench_Preparation.jpg)
+
+2. **Two 70% ethanol washes**
+   * 1.0 mL of 70% ethanol (DEPC water) per tube; 13,000 rpm, 4 °C, 1 min; decanted in the clean bench; rims blotted.
+   * Repeated with a second 1.0 mL: 13,000 rpm, 4 °C, 1 min; decanted; rims blotted.
+
+3. **Removing the remaining ethanol**
+   * Empty tubes were centrifuged at 13,000 rpm, 4 °C, 1 min to collect the ethanol from the walls.
+   * In the clean bench, the collected ethanol was removed with a 100 µL pipette, with the tip on the wall opposite the white pellet.
+   * The collected supernatant and washes were discarded into the organic waste container.
+
+4. **Drying (deviation)**
+   * After the usual 5 min of air-drying, the pellets were still white and opaque instead of translucent, so they were dried for another 5 min (10 min in total) until they were translucent.
+
+5. **RNA resuspension**
+   * 50 µL DEPC water per pellet; dissolved by gentle pipetting; tubes put on ice.
+
+6. **Reagents**
+   * Oligo(dT), 10 mM dNTP mix, 5X First-Strand Buffer and 0.1 M DTT were taken from −20 °C and kept on ice.
+   * Two sterile 1.5 mL tubes were labeled `Step 1` and `Step 2`.
+
+   ![Reagents on ice](../assets/2026-09-09_Ice_Bucket.jpg)
+   ![Oligo(dT)](../assets/2026-09-09_Oligo_dT.jpg)
+   ![10 mM dNTP mix](../assets/2026-09-09_10mM_dNTPs_Mix.jpg)
    ![5X First-Strand Buffer](../assets/2026-09-09_5X_First_Strand_Buffer.jpg)
-   ![0.1 M DTT Reagent](../assets/2026-09-09_0.1M_DTT.jpg)
+   ![0.1 M DTT](../assets/2026-09-09_0.1M_DTT.jpg)
 
-7. **Step 1 Primer Annealing Master Mix Formulation and Aliquoting**
-   * Thoroughly vortexed the thawed Oligo dT and 10 mM dNTPs Mix to ensure complete solute homogenization.
-   * **Master Mix Assembly (with 1-Reaction Excess Overhead):** Prepared the Step 1 cocktail inside the designated `Step 1` tube for $N = 2$ experimental samples, scaling for 3 reactions ($N = 3$) to compensate for pipetting dead volume:
-     * **Oligo dT:** 3.0 µL (1.0 µL/reaction)
-     * **10 mM dNTPs Mix:** 6.0 µL (2.0 µL/reaction)
-     * **Total Master Mix Volume:** 9.0 µL
-   * Vortexed the `Step 1` tube thoroughly and pulse-spun in a benchtop centrifuge to collect all droplet volume at the tube base.
-   * Labeled 2 fresh PCR tubes for the two active experimental samples.
-   * Dispensed exactly **3.0 µL** of the prepared Step 1 cocktail into each PCR tube.
-   * Added **10.5 µL** of the corresponding Total RNA sample into each tube, establishing a working pre-annealing volume of **13.5 µL** per reaction.
+7. **Step 1 mix and annealing setup**
+   * Oligo(dT) and dNTP mix were vortexed after thawing.
+   * Step 1 mix for 3 reactions (2 samples + 1 extra): 3.0 µL oligo(dT) + 6.0 µL 10 mM dNTP mix = 9.0 µL; vortexed and pulse-spun.
+   * Two PCR tubes were labeled; 3.0 µL of Step 1 mix and 10.5 µL RNA per tube (13.5 µL).
 
-8. **Thermal Denaturation, Primer Annealing, and Concurrent Step 2 Pre-Mix Assembly**
-   * Loaded the assembled reaction tubes into a **Bio-Rad C1000 Touch Thermal Cycler**.
-   * Initiated the secondary structure denaturation and primer annealing thermal profile:
-     * **Denaturation:** 65°C for 5 minutes
-     * **Hold/Quench:** 12°C ($\infty$)
-   * **Concurrent Step 2 Pre-Mix Assembly:** During the 5-minute 65°C incubation, assembled the base reverse transcription cocktail in the pre-labeled `Step 2` tube (scaled for $N = 3$ reactions to accommodate pipetting dead volume):
-     * **5X First-Strand Buffer:** 12.0 µL (4.0 µL/reaction)
-     * **0.1 M DTT:** 6.0 µL (2.0 µL/reaction)
-     * *Note:* Reverse transcriptase (RTase) was deliberately withheld at this stage to prevent premature activity loss.
-   * Thoroughly vortexed the `Step 2` tube to homogenize the buffer-reducing agent solution, pulse-spun in a benchtop centrifuge to collect all volume at the tube base, and immediately returned the tube to the ice bucket.
-   * Following completion of the 5-minute denaturation program, immediately retrieved the PCR tubes and seated them directly in the ice bucket to quench thermal motion and stabilize primer-template annealing.
+8. **Denaturation and Step 2 mix**
+   * Bio-Rad C1000 Touch: 65 °C for 5 min, then hold at 12 °C.
+   * During the 5 min, the Step 2 base mix for 3 reactions was prepared: 12.0 µL 5X First-Strand Buffer + 6.0 µL 0.1 M DTT, vortexed, pulse-spun and put on ice. The reverse transcriptase was added later, just before use.
+   * After the program, the PCR tubes were put directly on ice.
 
-9. **Reverse Transcriptase Incorporation and Reaction Assembly**
-   * Retrieved **SuperScript™ II Reverse Transcriptase (200 U/µL, Invitrogen)** from -20°C storage using a portable benchtop cooler to prevent temperature fluctuations.
-   * **Enzyme Handling Technique:** Gently mixed the viscous glycerol enzyme stock by circular tip stirring and low-force pipetting to avoid shear stress and bubble formation.
-   * Dispensed **1.5 µL of SuperScript II Reverse Transcriptase** into the pre-assembled `Step 2` tube (completing the $N = 3$ cocktail: 12.0 µL 5X Buffer + 6.0 µL 0.1 M DTT + 1.5 µL RTase = 19.5 µL total master mix).
-   * Mixed the completed Step 2 master mix thoroughly by gentle pipetting on ice.
-   * Retrieved the chilled PCR tubes containing the annealed RNA-primer mix (13.5 µL per tube).
-   * Aliquoted **6.5 µL** of the finalized Step 2 master mix into each sample PCR tube, reaching the target total working volume of **20.0 µL**.
-   * Gently mixed the complete reaction by pipetting and pulse-spun the tubes in a benchtop centrifuge to collect all droplets at the bottom.
-   ![Invitrogen SuperScript II Reverse Transcriptase](../assets/2026-09-09_Reverse_Transcriptase.jpg)
+9. **Reverse transcriptase and reaction setup**
+   * SuperScript II reverse transcriptase (200 U/µL, Invitrogen) was taken from −20 °C in a bench-top cooler.
+   * The viscous enzyme stock was mixed by gentle stirring with the tip and slow pipetting.
+   * 1.5 µL enzyme was added to the Step 2 tube (12.0 + 6.0 + 1.5 = 19.5 µL) and mixed gently on ice.
+   * 6.5 µL of Step 2 mix was added to each annealed sample (13.5 µL), giving 20.0 µL; mixed gently by pipetting and pulse-spun.
 
-10. **First-Strand cDNA Synthesis Thermal Incubation**
-    * Loaded the reaction tubes into the **Bio-Rad C1000 Touch Thermal Cycler**.
-    * Executed the reverse transcription and thermal inactivation program (`cDNA_2`):
-      * **First-Strand cDNA Synthesis:** 42°C for 60 minutes
-      * **Enzyme Inactivation:** 70°C for 15 minutes
-      * **Final Hold:** 12°C ($\infty$)
-    ![Bio-Rad C1000 Touch Thermal Cycler Execution Profile](../assets/2026-09-09_C1000_Touch_Thermal_Cycler.jpg)
+   ![SuperScript II reverse transcriptase](../assets/2026-09-09_Reverse_Transcriptase.jpg)
 
-11. **cDNA Dilution and Mechanical Homogenization**
-    * Retrieved the sample PCR tubes from the thermal cycler upon completion of the reaction.
-    * Dispensed **180 µL of sterile Distilled Water ($3^\circ\text{ DW}$)** into each reaction tube, bringing the total working volume to **200 µL** (10-fold dilution).
-    * Thoroughly vortexed each tube to ensure complete solute homogenization.
-    * *Technical Note:* Unlike fragile, shearing-sensitive high-molecular-weight genomic DNA or chemically labile total RNA, first-strand cDNA fragments tolerate vigorous mechanical vortexing without structural fragmentation or loss of integrity.
-    * Pulse-spun the tubes in a benchtop centrifuge to collect all volume at the tube base.
+10. **cDNA synthesis**
+    * Program `cDNA_2` on the Bio-Rad C1000 Touch: 42 °C for 60 min, 70 °C for 15 min, hold at 12 °C.
 
-12. **Spectrophotometric Quantification and Final Storage**
-    * Quantified cDNA concentration and spectral purity using a **Thermo Scientific NanoDrop 2000c Spectrophotometer** (Blank: $3^\circ\text{ DW}$).
-    * Conducted technical duplicate measurements for both samples (`At` and `MM`):
+    ![Thermal cycler program](../assets/2026-09-09_C1000_Touch_Thermal_Cycler.jpg)
 
-| Sample ID | Replicate | Concentration (ng/µL) | $A_{260}$ | $A_{280}$ | $A_{260}/A_{280}$ | $A_{260}/A_{230}$ |
+11. **Dilution**
+    * 180 µL sterile 3DW per tube (200 µL, 10-fold dilution); vortexed and pulse-spun.
+
+12. **NanoDrop and storage**
+    * The diluted reactions were measured twice each on the NanoDrop 2000c (blank: 3DW):
+
+| Sample | Reading | ng/µL | A260 | A280 | A260/A280 | A260/A230 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **At** | Run 1 | 59.1 | 1.182 | 0.711 | 1.66 | 1.47 |
-| **At** | Run 2 | 60.5 | 1.210 | 0.713 | 1.70 | 1.54 |
-| **MM** | Run 1 | 61.6 | 1.232 | 0.740 | 1.66 | 1.60 |
-| **MM** | Run 2 | 60.1 | 1.202 | 0.704 | 1.71 | 1.52 |
+| `At` | 1 | 59.1 | 1.182 | 0.711 | 1.66 | 1.47 |
+| `At` | 2 | 60.5 | 1.210 | 0.713 | 1.70 | 1.54 |
+| `MM` | 1 | 61.6 | 1.232 | 0.740 | 1.66 | 1.60 |
+| `MM` | 2 | 60.1 | 1.202 | 0.704 | 1.71 | 1.52 |
 
-   * Transferred the quantified, diluted cDNA samples to a -20°C freezer for stable, long-term storage prior to downstream qPCR or sequencing assays.
-   ![NanoDrop 2000c cDNA Spectrophotometric Profile and Measurement Log](../assets/2026-09-09_Nano_Drop.jpg)
+   * The diluted cDNA was stored at −20 °C.
+
+   ![NanoDrop 2000c readings](../assets/2026-09-09_Nano_Drop.jpg)
